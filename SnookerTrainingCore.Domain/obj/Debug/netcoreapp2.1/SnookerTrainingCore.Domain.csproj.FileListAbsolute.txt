@@ -6,3 +6,11 @@ F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainin
 F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.Domain\obj\Debug\netcoreapp2.1\SnookerTrainingCore.Domain.AssemblyInfo.cs
 F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.Domain\obj\Debug\netcoreapp2.1\SnookerTrainingCore.Domain.dll
 F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.Domain\obj\Debug\netcoreapp2.1\SnookerTrainingCore.Domain.pdb
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore\SnookerTrainingCore.Domain\bin\Debug\netcoreapp2.1\SnookerTrainingCore.Domain.deps.json
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore\SnookerTrainingCore.Domain\bin\Debug\netcoreapp2.1\SnookerTrainingCore.Domain.dll
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore\SnookerTrainingCore.Domain\bin\Debug\netcoreapp2.1\SnookerTrainingCore.Domain.pdb
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore\SnookerTrainingCore.Domain\obj\Debug\netcoreapp2.1\SnookerTrainingCore.Domain.csproj.CoreCompileInputs.cache
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore\SnookerTrainingCore.Domain\obj\Debug\netcoreapp2.1\SnookerTrainingCore.Domain.AssemblyInfoInputs.cache
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore\SnookerTrainingCore.Domain\obj\Debug\netcoreapp2.1\SnookerTrainingCore.Domain.AssemblyInfo.cs
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore\SnookerTrainingCore.Domain\obj\Debug\netcoreapp2.1\SnookerTrainingCore.Domain.dll
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore\SnookerTrainingCore.Domain\obj\Debug\netcoreapp2.1\SnookerTrainingCore.Domain.pdb

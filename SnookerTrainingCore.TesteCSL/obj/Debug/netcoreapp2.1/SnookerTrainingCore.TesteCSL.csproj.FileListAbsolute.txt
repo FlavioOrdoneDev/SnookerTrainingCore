@@ -12,3 +12,17 @@ F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainin
 F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.TesteCSL\obj\Debug\netcoreapp2.1\SnookerTrainingCore.TesteCSL.csproj.CopyComplete
 F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.TesteCSL\obj\Debug\netcoreapp2.1\SnookerTrainingCore.TesteCSL.dll
 F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.TesteCSL\obj\Debug\netcoreapp2.1\SnookerTrainingCore.TesteCSL.pdb
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore\SnookerTrainingCore.TesteCSL\bin\Debug\netcoreapp2.1\SnookerTrainingCore.TesteCSL.deps.json
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore\SnookerTrainingCore.TesteCSL\bin\Debug\netcoreapp2.1\SnookerTrainingCore.TesteCSL.runtimeconfig.json
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore\SnookerTrainingCore.TesteCSL\bin\Debug\netcoreapp2.1\SnookerTrainingCore.TesteCSL.runtimeconfig.dev.json
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore\SnookerTrainingCore.TesteCSL\bin\Debug\netcoreapp2.1\SnookerTrainingCore.TesteCSL.dll
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore\SnookerTrainingCore.TesteCSL\bin\Debug\netcoreapp2.1\SnookerTrainingCore.TesteCSL.pdb
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore\SnookerTrainingCore.TesteCSL\bin\Debug\netcoreapp2.1\SnookerTrainingCore.Domain.dll
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore\SnookerTrainingCore.TesteCSL\bin\Debug\netcoreapp2.1\SnookerTrainingCore.Domain.pdb
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore\SnookerTrainingCore.TesteCSL\obj\Debug\netcoreapp2.1\SnookerTrainingCore.TesteCSL.csprojAssemblyReference.cache
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore\SnookerTrainingCore.TesteCSL\obj\Debug\netcoreapp2.1\SnookerTrainingCore.TesteCSL.csproj.CoreCompileInputs.cache
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore\SnookerTrainingCore.TesteCSL\obj\Debug\netcoreapp2.1\SnookerTrainingCore.TesteCSL.AssemblyInfoInputs.cache
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore\SnookerTrainingCore.TesteCSL\obj\Debug\netcoreapp2.1\SnookerTrainingCore.TesteCSL.AssemblyInfo.cs
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore\SnookerTrainingCore.TesteCSL\obj\Debug\netcoreapp2.1\SnookerTrainingCore.TesteCSL.csproj.CopyComplete
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore\SnookerTrainingCore.TesteCSL\obj\Debug\netcoreapp2.1\SnookerTrainingCore.TesteCSL.dll
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore\SnookerTrainingCore.TesteCSL\obj\Debug\netcoreapp2.1\SnookerTrainingCore.TesteCSL.pdb

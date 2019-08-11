@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Projetos Flavio\\Snooker Training .Net Core\\SnookerTrainingCore\\SnookerTrainingCore.TesteCSL\\SnookerTrainingCore.TesteCSL.csproj": {}
+    "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore\\SnookerTrainingCore.TesteCSL\\SnookerTrainingCore.TesteCSL.csproj": {}
   },
   "projects": {
-    "F:\\Projetos Flavio\\Snooker Training .Net Core\\SnookerTrainingCore\\SnookerTrainingCore.Domain\\SnookerTrainingCore.Domain.csproj": {
+    "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore\\SnookerTrainingCore.Domain\\SnookerTrainingCore.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Projetos Flavio\\Snooker Training .Net Core\\SnookerTrainingCore\\SnookerTrainingCore.Domain\\SnookerTrainingCore.Domain.csproj",
+        "projectUniqueName": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore\\SnookerTrainingCore.Domain\\SnookerTrainingCore.Domain.csproj",
         "projectName": "SnookerTrainingCore.Domain",
-        "projectPath": "F:\\Projetos Flavio\\Snooker Training .Net Core\\SnookerTrainingCore\\SnookerTrainingCore.Domain\\SnookerTrainingCore.Domain.csproj",
+        "projectPath": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore\\SnookerTrainingCore.Domain\\SnookerTrainingCore.Domain.csproj",
         "packagesPath": "C:\\Users\\Tech\\.nuget\\packages\\",
-        "outputPath": "F:\\Projetos Flavio\\Snooker Training .Net Core\\SnookerTrainingCore\\SnookerTrainingCore.Domain\\obj\\",
+        "outputPath": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore\\SnookerTrainingCore.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -56,14 +56,14 @@
         }
       }
     },
-    "F:\\Projetos Flavio\\Snooker Training .Net Core\\SnookerTrainingCore\\SnookerTrainingCore.TesteCSL\\SnookerTrainingCore.TesteCSL.csproj": {
+    "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore\\SnookerTrainingCore.TesteCSL\\SnookerTrainingCore.TesteCSL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Projetos Flavio\\Snooker Training .Net Core\\SnookerTrainingCore\\SnookerTrainingCore.TesteCSL\\SnookerTrainingCore.TesteCSL.csproj",
+        "projectUniqueName": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore\\SnookerTrainingCore.TesteCSL\\SnookerTrainingCore.TesteCSL.csproj",
         "projectName": "SnookerTrainingCore.TesteCSL",
-        "projectPath": "F:\\Projetos Flavio\\Snooker Training .Net Core\\SnookerTrainingCore\\SnookerTrainingCore.TesteCSL\\SnookerTrainingCore.TesteCSL.csproj",
+        "projectPath": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore\\SnookerTrainingCore.TesteCSL\\SnookerTrainingCore.TesteCSL.csproj",
         "packagesPath": "C:\\Users\\Tech\\.nuget\\packages\\",
-        "outputPath": "F:\\Projetos Flavio\\Snooker Training .Net Core\\SnookerTrainingCore\\SnookerTrainingCore.TesteCSL\\obj\\",
+        "outputPath": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore\\SnookerTrainingCore.TesteCSL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -82,8 +82,8 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "F:\\Projetos Flavio\\Snooker Training .Net Core\\SnookerTrainingCore\\SnookerTrainingCore.Domain\\SnookerTrainingCore.Domain.csproj": {
-                "projectPath": "F:\\Projetos Flavio\\Snooker Training .Net Core\\SnookerTrainingCore\\SnookerTrainingCore.Domain\\SnookerTrainingCore.Domain.csproj"
+              "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore\\SnookerTrainingCore.Domain\\SnookerTrainingCore.Domain.csproj": {
+                "projectPath": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore\\SnookerTrainingCore.Domain\\SnookerTrainingCore.Domain.csproj"
               }
             }
           }

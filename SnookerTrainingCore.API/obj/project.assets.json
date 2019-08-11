@@ -12620,11 +12620,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Projetos Flavio\\Snooker Training .Net Core\\SnookerTrainingCore\\SnookerTrainingCore.API\\SnookerTrainingCore.API.csproj",
+      "projectUniqueName": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore\\SnookerTrainingCore.API\\SnookerTrainingCore.API.csproj",
       "projectName": "SnookerTrainingCore.API",
-      "projectPath": "F:\\Projetos Flavio\\Snooker Training .Net Core\\SnookerTrainingCore\\SnookerTrainingCore.API\\SnookerTrainingCore.API.csproj",
+      "projectPath": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore\\SnookerTrainingCore.API\\SnookerTrainingCore.API.csproj",
       "packagesPath": "C:\\Users\\Tech\\.nuget\\packages\\",
-      "outputPath": "F:\\Projetos Flavio\\Snooker Training .Net Core\\SnookerTrainingCore\\SnookerTrainingCore.API\\obj\\",
+      "outputPath": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore\\SnookerTrainingCore.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12643,14 +12643,14 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "F:\\Projetos Flavio\\Snooker Training .Net Core\\SnookerTrainingCore\\SnookerTrainingCore.ApplicationService\\SnookerTrainingCore.ApplicationService.csproj": {
-              "projectPath": "F:\\Projetos Flavio\\Snooker Training .Net Core\\SnookerTrainingCore\\SnookerTrainingCore.ApplicationService\\SnookerTrainingCore.ApplicationService.csproj"
+            "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore\\SnookerTrainingCore.ApplicationService\\SnookerTrainingCore.ApplicationService.csproj": {
+              "projectPath": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore\\SnookerTrainingCore.ApplicationService\\SnookerTrainingCore.ApplicationService.csproj"
             },
-            "F:\\Projetos Flavio\\Snooker Training .Net Core\\SnookerTrainingCore\\SnookerTrainingCore.Domain\\SnookerTrainingCore.Domain.csproj": {
-              "projectPath": "F:\\Projetos Flavio\\Snooker Training .Net Core\\SnookerTrainingCore\\SnookerTrainingCore.Domain\\SnookerTrainingCore.Domain.csproj"
+            "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore\\SnookerTrainingCore.Domain\\SnookerTrainingCore.Domain.csproj": {
+              "projectPath": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore\\SnookerTrainingCore.Domain\\SnookerTrainingCore.Domain.csproj"
             },
-            "F:\\Projetos Flavio\\Snooker Training .Net Core\\SnookerTrainingCore\\SnookerTrainingCore.Infra\\SnookerTrainingCore.Infra.csproj": {
-              "projectPath": "F:\\Projetos Flavio\\Snooker Training .Net Core\\SnookerTrainingCore\\SnookerTrainingCore.Infra\\SnookerTrainingCore.Infra.csproj"
+            "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore\\SnookerTrainingCore.Infra\\SnookerTrainingCore.Infra.csproj": {
+              "projectPath": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore\\SnookerTrainingCore.Infra\\SnookerTrainingCore.Infra.csproj"
             }
           }
         }
