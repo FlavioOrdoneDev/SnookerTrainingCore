@@ -5813,11 +5813,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore\\SnookerTrainingCore.ApplicationService.Tests\\SnookerTrainingCore.ApplicationService.Tests.csproj",
+      "projectUniqueName": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore.ApplicationService.Tests\\SnookerTrainingCore.ApplicationService.Tests.csproj",
       "projectName": "SnookerTrainingCore.ApplicationService.Tests",
-      "projectPath": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore\\SnookerTrainingCore.ApplicationService.Tests\\SnookerTrainingCore.ApplicationService.Tests.csproj",
+      "projectPath": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore.ApplicationService.Tests\\SnookerTrainingCore.ApplicationService.Tests.csproj",
       "packagesPath": "C:\\Users\\Tech\\.nuget\\packages\\",
-      "outputPath": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore\\SnookerTrainingCore.ApplicationService.Tests\\obj\\",
+      "outputPath": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore.ApplicationService.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

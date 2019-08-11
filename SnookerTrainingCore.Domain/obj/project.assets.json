@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore\\SnookerTrainingCore.Domain\\SnookerTrainingCore.Domain.csproj",
+      "projectUniqueName": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore.Domain\\SnookerTrainingCore.Domain.csproj",
       "projectName": "SnookerTrainingCore.Domain",
-      "projectPath": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore\\SnookerTrainingCore.Domain\\SnookerTrainingCore.Domain.csproj",
+      "projectPath": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore.Domain\\SnookerTrainingCore.Domain.csproj",
       "packagesPath": "C:\\Users\\Tech\\.nuget\\packages\\",
-      "outputPath": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore\\SnookerTrainingCore.Domain\\obj\\",
+      "outputPath": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

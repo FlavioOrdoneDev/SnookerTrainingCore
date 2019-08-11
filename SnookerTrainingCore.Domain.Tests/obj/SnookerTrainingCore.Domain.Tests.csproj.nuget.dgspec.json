@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore\\SnookerTrainingCore.Domain.Tests\\SnookerTrainingCore.Domain.Tests.csproj": {}
+    "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore.Domain.Tests\\SnookerTrainingCore.Domain.Tests.csproj": {}
   },
   "projects": {
-    "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore\\SnookerTrainingCore.Domain.Tests\\SnookerTrainingCore.Domain.Tests.csproj": {
+    "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore.Domain.Tests\\SnookerTrainingCore.Domain.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore\\SnookerTrainingCore.Domain.Tests\\SnookerTrainingCore.Domain.Tests.csproj",
+        "projectUniqueName": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore.Domain.Tests\\SnookerTrainingCore.Domain.Tests.csproj",
         "projectName": "SnookerTrainingCore.Domain.Tests",
-        "projectPath": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore\\SnookerTrainingCore.Domain.Tests\\SnookerTrainingCore.Domain.Tests.csproj",
+        "projectPath": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore.Domain.Tests\\SnookerTrainingCore.Domain.Tests.csproj",
         "packagesPath": "C:\\Users\\Tech\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore\\SnookerTrainingCore.Domain.Tests\\obj\\",
+        "outputPath": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore.Domain.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore\\SnookerTrainingCore.Domain\\SnookerTrainingCore.Domain.csproj": {
-                "projectPath": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore\\SnookerTrainingCore.Domain\\SnookerTrainingCore.Domain.csproj"
+              "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore.Domain\\SnookerTrainingCore.Domain.csproj": {
+                "projectPath": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore.Domain\\SnookerTrainingCore.Domain.csproj"
               }
             }
           }
@@ -75,14 +75,14 @@
         }
       }
     },
-    "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore\\SnookerTrainingCore.Domain\\SnookerTrainingCore.Domain.csproj": {
+    "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore.Domain\\SnookerTrainingCore.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore\\SnookerTrainingCore.Domain\\SnookerTrainingCore.Domain.csproj",
+        "projectUniqueName": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore.Domain\\SnookerTrainingCore.Domain.csproj",
         "projectName": "SnookerTrainingCore.Domain",
-        "projectPath": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore\\SnookerTrainingCore.Domain\\SnookerTrainingCore.Domain.csproj",
+        "projectPath": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore.Domain\\SnookerTrainingCore.Domain.csproj",
         "packagesPath": "C:\\Users\\Tech\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore\\SnookerTrainingCore.Domain\\obj\\",
+        "outputPath": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

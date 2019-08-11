@@ -12583,11 +12583,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore\\SnookerTrainingCore.MVC\\SnookerTrainingCore.MVC.csproj",
+      "projectUniqueName": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore.MVC\\SnookerTrainingCore.MVC.csproj",
       "projectName": "SnookerTrainingCore.MVC",
-      "projectPath": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore\\SnookerTrainingCore.MVC\\SnookerTrainingCore.MVC.csproj",
+      "projectPath": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore.MVC\\SnookerTrainingCore.MVC.csproj",
       "packagesPath": "C:\\Users\\Tech\\.nuget\\packages\\",
-      "outputPath": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore\\SnookerTrainingCore.MVC\\obj\\",
+      "outputPath": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore.MVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12606,11 +12606,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore\\SnookerTrainingCore.Domain\\SnookerTrainingCore.Domain.csproj": {
-              "projectPath": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore\\SnookerTrainingCore.Domain\\SnookerTrainingCore.Domain.csproj"
+            "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore.Domain\\SnookerTrainingCore.Domain.csproj": {
+              "projectPath": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore.Domain\\SnookerTrainingCore.Domain.csproj"
             },
-            "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore\\SnookerTrainingCore.Infra\\SnookerTrainingCore.Infra.csproj": {
-              "projectPath": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore\\SnookerTrainingCore.Infra\\SnookerTrainingCore.Infra.csproj"
+            "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore.Infra\\SnookerTrainingCore.Infra.csproj": {
+              "projectPath": "C:\\GitHub_Flavio\\SnookerTrainingCore\\SnookerTrainingCore.Infra\\SnookerTrainingCore.Infra.csproj"
             }
           }
         }
