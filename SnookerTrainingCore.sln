@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29001.49
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - API", "2 - API", "{79DE9D0F-EB64-447F-8D30-A74ADA818F4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Apresentacao", "1 - Apresentacao", "{9F431243-CB57-4A3E-847A-4DA805D79577}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - ApplicationService", "3 - ApplicationService", "{30765112-7EE5-4968-9AF8-3EC2BE0DE122}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Domain", "4 - Domain", "{618E0050-9934-4565-9ACC-25E56D4C4029}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Infrastructure", "5 - Infrastructure", "{518BDAE7-E4DC-42A6-A554-8F8111120CD4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SnookerTrainingCore.Domain", "SnookerTrainingCore.Domain\SnookerTrainingCore.Domain.csproj", "{B4FAD28E-F3C4-44B4-BB53-C7B68F471D81}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SnookerTrainingCore.Domain.Tests", "SnookerTrainingCore.Domain.Tests\SnookerTrainingCore.Domain.Tests.csproj", "{605E909A-8EAA-47B9-89A7-D07C514D4BE2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SnookerTrainingCore.API", "SnookerTrainingCore.API\SnookerTrainingCore.API.csproj", "{BD277E80-9B35-4D2F-BA54-65578D1E5181}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SnookerTrainingCore.API.Tests", "SnookerTrainingCore.API.Tests\SnookerTrainingCore.API.Tests.csproj", "{285C38C4-D28A-4D5A-81AF-1C66FB4651AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SnookerTrainingCore.ApplicationService", "SnookerTrainingCore.ApplicationService\SnookerTrainingCore.ApplicationService.csproj", "{5EB7B320-98AD-4F16-ACE5-68D96969E2D1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SnookerTrainingCore.ApplicationService.Tests", "SnookerTrainingCore.ApplicationService.Tests\SnookerTrainingCore.ApplicationService.Tests.csproj", "{9D33C267-4388-4523-8DC3-6E7F2271CACB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SnookerTrainingCore.TesteCSL", "SnookerTrainingCore.TesteCSL\SnookerTrainingCore.TesteCSL.csproj", "{922E170B-9E4A-41DA-A177-454F4313E416}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SnookerTrainingCore.Infra", "SnookerTrainingCore.Infra\SnookerTrainingCore.Infra.csproj", "{7586BD1D-C3C8-45BE-ADA3-275A9543D3D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SnookerTrainingCore.MVC", "SnookerTrainingCore.MVC\SnookerTrainingCore.MVC.csproj", "{E051424C-7657-406B-A035-D786F0B22C96}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4FAD28E-F3C4-44B4-BB53-C7B68F471D81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4FAD28E-F3C4-44B4-BB53-C7B68F471D81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4FAD28E-F3C4-44B4-BB53-C7B68F471D81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4FAD28E-F3C4-44B4-BB53-C7B68F471D81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{605E909A-8EAA-47B9-89A7-D07C514D4BE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{605E909A-8EAA-47B9-89A7-D07C514D4BE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{605E909A-8EAA-47B9-89A7-D07C514D4BE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{605E909A-8EAA-47B9-89A7-D07C514D4BE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD277E80-9B35-4D2F-BA54-65578D1E5181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD277E80-9B35-4D2F-BA54-65578D1E5181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD277E80-9B35-4D2F-BA54-65578D1E5181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD277E80-9B35-4D2F-BA54-65578D1E5181}.Release|Any CPU.Build.0 = Release|Any CPU
+		{285C38C4-D28A-4D5A-81AF-1C66FB4651AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{285C38C4-D28A-4D5A-81AF-1C66FB4651AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{285C38C4-D28A-4D5A-81AF-1C66FB4651AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{285C38C4-D28A-4D5A-81AF-1C66FB4651AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EB7B320-98AD-4F16-ACE5-68D96969E2D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EB7B320-98AD-4F16-ACE5-68D96969E2D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EB7B320-98AD-4F16-ACE5-68D96969E2D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EB7B320-98AD-4F16-ACE5-68D96969E2D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D33C267-4388-4523-8DC3-6E7F2271CACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D33C267-4388-4523-8DC3-6E7F2271CACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D33C267-4388-4523-8DC3-6E7F2271CACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D33C267-4388-4523-8DC3-6E7F2271CACB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{922E170B-9E4A-41DA-A177-454F4313E416}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{922E170B-9E4A-41DA-A177-454F4313E416}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{922E170B-9E4A-41DA-A177-454F4313E416}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{922E170B-9E4A-41DA-A177-454F4313E416}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7586BD1D-C3C8-45BE-ADA3-275A9543D3D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7586BD1D-C3C8-45BE-ADA3-275A9543D3D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7586BD1D-C3C8-45BE-ADA3-275A9543D3D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7586BD1D-C3C8-45BE-ADA3-275A9543D3D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E051424C-7657-406B-A035-D786F0B22C96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E051424C-7657-406B-A035-D786F0B22C96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E051424C-7657-406B-A035-D786F0B22C96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E051424C-7657-406B-A035-D786F0B22C96}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B4FAD28E-F3C4-44B4-BB53-C7B68F471D81} = {618E0050-9934-4565-9ACC-25E56D4C4029}
+		{605E909A-8EAA-47B9-89A7-D07C514D4BE2} = {618E0050-9934-4565-9ACC-25E56D4C4029}
+		{BD277E80-9B35-4D2F-BA54-65578D1E5181} = {79DE9D0F-EB64-447F-8D30-A74ADA818F4E}
+		{285C38C4-D28A-4D5A-81AF-1C66FB4651AE} = {79DE9D0F-EB64-447F-8D30-A74ADA818F4E}
+		{5EB7B320-98AD-4F16-ACE5-68D96969E2D1} = {30765112-7EE5-4968-9AF8-3EC2BE0DE122}
+		{9D33C267-4388-4523-8DC3-6E7F2271CACB} = {30765112-7EE5-4968-9AF8-3EC2BE0DE122}
+		{922E170B-9E4A-41DA-A177-454F4313E416} = {9F431243-CB57-4A3E-847A-4DA805D79577}
+		{7586BD1D-C3C8-45BE-ADA3-275A9543D3D0} = {518BDAE7-E4DC-42A6-A554-8F8111120CD4}
+		{E051424C-7657-406B-A035-D786F0B22C96} = {9F431243-CB57-4A3E-847A-4DA805D79577}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F9506A2-61C2-435B-BEF4-9815C0641046}
+	EndGlobalSection
+EndGlobal

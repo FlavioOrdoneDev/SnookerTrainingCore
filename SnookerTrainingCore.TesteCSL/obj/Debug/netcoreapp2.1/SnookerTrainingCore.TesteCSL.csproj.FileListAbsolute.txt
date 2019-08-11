@@ -1,0 +1,14 @@
+F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.TesteCSL\bin\Debug\netcoreapp2.1\SnookerTrainingCore.TesteCSL.deps.json
+F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.TesteCSL\bin\Debug\netcoreapp2.1\SnookerTrainingCore.TesteCSL.runtimeconfig.json
+F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.TesteCSL\bin\Debug\netcoreapp2.1\SnookerTrainingCore.TesteCSL.runtimeconfig.dev.json
+F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.TesteCSL\bin\Debug\netcoreapp2.1\SnookerTrainingCore.TesteCSL.dll
+F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.TesteCSL\bin\Debug\netcoreapp2.1\SnookerTrainingCore.TesteCSL.pdb
+F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.TesteCSL\bin\Debug\netcoreapp2.1\SnookerTrainingCore.Domain.dll
+F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.TesteCSL\bin\Debug\netcoreapp2.1\SnookerTrainingCore.Domain.pdb
+F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.TesteCSL\obj\Debug\netcoreapp2.1\SnookerTrainingCore.TesteCSL.csprojAssemblyReference.cache
+F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.TesteCSL\obj\Debug\netcoreapp2.1\SnookerTrainingCore.TesteCSL.csproj.CoreCompileInputs.cache
+F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.TesteCSL\obj\Debug\netcoreapp2.1\SnookerTrainingCore.TesteCSL.AssemblyInfoInputs.cache
+F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.TesteCSL\obj\Debug\netcoreapp2.1\SnookerTrainingCore.TesteCSL.AssemblyInfo.cs
+F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.TesteCSL\obj\Debug\netcoreapp2.1\SnookerTrainingCore.TesteCSL.csproj.CopyComplete
+F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.TesteCSL\obj\Debug\netcoreapp2.1\SnookerTrainingCore.TesteCSL.dll
+F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.TesteCSL\obj\Debug\netcoreapp2.1\SnookerTrainingCore.TesteCSL.pdb

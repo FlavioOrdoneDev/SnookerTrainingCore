@@ -1,0 +1,49 @@
+﻿@model IEnumerable<SnookerTrainingCore.Domain.Entidades.Categoria>;
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Categoria</h2>
+
+<p>
+    <a asp-action="Adicionar">Adicionar Categoria</a>
+</p>
+<div>
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    Nome
+                </th>
+                <th>
+                    Descrição
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            { 
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Descricao)
+                </td>
+                <td>
+                    <a asp-action="Editar" asp-route-id="@item.IdCategoria">Editar</a>
+                </td>
+                <td>
+                    <a asp-action="Detalhes" asp-route-id="@item.IdCategoria">Detalhes</a>
+                </td>
+                    
+            </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<hr />
+<div>
+    
+</div>
+

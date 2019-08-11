@@ -1,0 +1,14 @@
+F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.Infra\obj\Debug\netcoreapp2.1\SnookerTrainingCore.Infra.csprojAssemblyReference.cache
+F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.Infra\obj\Debug\netcoreapp2.1\SnookerTrainingCore.Infra.csproj.CoreCompileInputs.cache
+F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.Infra\obj\Debug\netcoreapp2.1\SnookerTrainingCore.Infra.AssemblyInfoInputs.cache
+F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.Infra\obj\Debug\netcoreapp2.1\SnookerTrainingCore.Infra.AssemblyInfo.cs
+F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.Infra\bin\Debug\netcoreapp2.1\SnookerTrainingCore.Infra.deps.json
+F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.Infra\bin\Debug\netcoreapp2.1\SnookerTrainingCore.Infra.runtimeconfig.json
+F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.Infra\bin\Debug\netcoreapp2.1\SnookerTrainingCore.Infra.runtimeconfig.dev.json
+F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.Infra\bin\Debug\netcoreapp2.1\SnookerTrainingCore.Infra.dll
+F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.Infra\bin\Debug\netcoreapp2.1\SnookerTrainingCore.Infra.pdb
+F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.Infra\bin\Debug\netcoreapp2.1\SnookerTrainingCore.Domain.dll
+F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.Infra\bin\Debug\netcoreapp2.1\SnookerTrainingCore.Domain.pdb
+F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.Infra\obj\Debug\netcoreapp2.1\SnookerTrainingCore.Infra.csproj.CopyComplete
+F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.Infra\obj\Debug\netcoreapp2.1\SnookerTrainingCore.Infra.dll
+F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.Infra\obj\Debug\netcoreapp2.1\SnookerTrainingCore.Infra.pdb

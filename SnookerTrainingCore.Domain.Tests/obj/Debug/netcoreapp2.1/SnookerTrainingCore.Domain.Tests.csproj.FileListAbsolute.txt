@@ -1,0 +1,17 @@
+F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.Domain.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.Domain.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.Domain.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.Domain.Tests\bin\Debug\netcoreapp2.1\SnookerTrainingCore.Domain.Tests.deps.json
+F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.Domain.Tests\bin\Debug\netcoreapp2.1\SnookerTrainingCore.Domain.Tests.runtimeconfig.json
+F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.Domain.Tests\bin\Debug\netcoreapp2.1\SnookerTrainingCore.Domain.Tests.runtimeconfig.dev.json
+F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.Domain.Tests\bin\Debug\netcoreapp2.1\SnookerTrainingCore.Domain.Tests.dll
+F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.Domain.Tests\bin\Debug\netcoreapp2.1\SnookerTrainingCore.Domain.Tests.pdb
+F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.Domain.Tests\bin\Debug\netcoreapp2.1\SnookerTrainingCore.Domain.dll
+F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.Domain.Tests\bin\Debug\netcoreapp2.1\SnookerTrainingCore.Domain.pdb
+F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.Domain.Tests\obj\Debug\netcoreapp2.1\SnookerTrainingCore.Domain.Tests.csprojAssemblyReference.cache
+F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.Domain.Tests\obj\Debug\netcoreapp2.1\SnookerTrainingCore.Domain.Tests.csproj.CoreCompileInputs.cache
+F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.Domain.Tests\obj\Debug\netcoreapp2.1\SnookerTrainingCore.Domain.Tests.AssemblyInfoInputs.cache
+F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.Domain.Tests\obj\Debug\netcoreapp2.1\SnookerTrainingCore.Domain.Tests.AssemblyInfo.cs
+F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.Domain.Tests\obj\Debug\netcoreapp2.1\SnookerTrainingCore.Domain.Tests.csproj.CopyComplete
+F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.Domain.Tests\obj\Debug\netcoreapp2.1\SnookerTrainingCore.Domain.Tests.dll
+F:\Projetos Flavio\Snooker Training .Net Core\SnookerTrainingCore\SnookerTrainingCore.Domain.Tests\obj\Debug\netcoreapp2.1\SnookerTrainingCore.Domain.Tests.pdb
