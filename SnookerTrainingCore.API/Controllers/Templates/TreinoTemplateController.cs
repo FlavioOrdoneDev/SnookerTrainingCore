@@ -1,23 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using SnookerTrainingCore.ApplicationService.AppModels.Templates;
 using SnookerTrainingCore.ApplicationService.AppServicos.Interfaces.Templates;
 using SnookerTrainingCore.Domain.Entidades.Templates;
-using SnookerTrainingCore.Domain.Servicos.Interfaces;
 
 namespace SnookerTrainingCore.API.Controllers.Templates
 {
     public class TreinoTemplateController : Controller
     {
-        private readonly ITreinoTemplateServico _treinoTemplateServico;
         private readonly ITreinoTemplateAppServico _treinoTemplateAppServico;
 
-        public TreinoTemplateController(ITreinoTemplateServico treinoTemplateServico, ITreinoTemplateAppServico treinoTemplateAppServico)
+        public TreinoTemplateController(ITreinoTemplateAppServico treinoTemplateAppServico)
         {
-            _treinoTemplateServico = treinoTemplateServico;
             _treinoTemplateAppServico = treinoTemplateAppServico;
         }
 
@@ -41,7 +35,7 @@ namespace SnookerTrainingCore.API.Controllers.Templates
         [HttpPost]
         public TreinoTemplate Post([FromBody]TreinoTemplate treino)
         {
-            _treinoTemplateServico.Adicionar(treino);
+            _treinoTemplateAppServico.Adicionar(treino);
             return treino;
         }
 
@@ -49,7 +43,7 @@ namespace SnookerTrainingCore.API.Controllers.Templates
         [HttpPut]
         public TreinoTemplate Put([FromBody]TreinoTemplate treino)
         {
-            _treinoTemplateServico.Atualizar(treino);
+            _treinoTemplateAppServico.Atualizar(treino);
             return treino;
         }
 
@@ -57,7 +51,7 @@ namespace SnookerTrainingCore.API.Controllers.Templates
         [HttpDelete]
         public TreinoTemplate Delete([FromBody]TreinoTemplate treino)
         {
-            _treinoTemplateServico.Remover(treino);
+            _treinoTemplateAppServico.Remover(treino);
             return treino;
         }
     }
