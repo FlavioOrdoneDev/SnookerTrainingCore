@@ -1,5 +1,7 @@
 ﻿using SnookerTrainingCore.ApplicationService.AppModels;
 using SnookerTrainingCore.ApplicationService.AppServicos.Interfaces;
+using SnookerTrainingCore.Domain.DomainModels.RotinaModels;
+using SnookerTrainingCore.Domain.Entidades;
 using SnookerTrainingCore.Domain.Servicos.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -14,6 +16,36 @@ namespace SnookerTrainingCore.ApplicationService.AppServicos
         public RotinaAppServico(IRotinaServico rotinaServico)
         {
             _rotinaServico = rotinaServico;
+        }
+
+        public void Adicionar(Rotina rotina)
+        {
+            _rotinaServico.Adicionar(rotina);
+        }
+
+        public void Atualizar(Rotina rotina)
+        {
+            _rotinaServico.Atualizar(rotina);
+        }
+
+        public IEnumerable<Pontuacao> ObterPontuacao(int id)
+        {
+            return _rotinaServico.ObterPontuacao(id);
+        }
+
+        public RotinaModel ObterResultadoDaRotina(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<RotinaViewModel> ObterTodas()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Remover(Rotina rotina)
+        {
+            throw new NotImplementedException();
         }
 
         public RotinaViewModel ObterPorId(int id)

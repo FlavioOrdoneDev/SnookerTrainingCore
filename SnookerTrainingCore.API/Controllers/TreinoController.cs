@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using SnookerTrainingCore.ApplicationService.AppModels;
 using SnookerTrainingCore.ApplicationService.AppServicos.Interfaces;
 using SnookerTrainingCore.Domain.Entidades;
-using SnookerTrainingCore.Domain.Servicos.Interfaces;
 
 namespace SnookerTrainingCore.API.Controllers
 {
@@ -14,7 +10,7 @@ namespace SnookerTrainingCore.API.Controllers
     {
         private readonly ITreinoAppServico _treinoAppServico;
 
-        public TreinoController(ITreinoServico treinoServico, ITreinoAppServico treinoAppServico)
+        public TreinoController(ITreinoAppServico treinoAppServico)
         {
            _treinoAppServico = treinoAppServico;
         }
