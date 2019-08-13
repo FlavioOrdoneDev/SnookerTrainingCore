@@ -24,3 +24,17 @@ C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore\SnookerTrainingCore.API
 C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore\SnookerTrainingCore.API.Tests\obj\Debug\netcoreapp2.1\SnookerTrainingCore.API.Tests.AssemblyInfo.cs
 C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore\SnookerTrainingCore.API.Tests\obj\Debug\netcoreapp2.1\SnookerTrainingCore.API.Tests.dll
 C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore\SnookerTrainingCore.API.Tests\obj\Debug\netcoreapp2.1\SnookerTrainingCore.API.Tests.pdb
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.API.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.API.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.API.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.API.Tests\bin\Debug\netcoreapp2.1\SnookerTrainingCore.API.Tests.deps.json
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.API.Tests\bin\Debug\netcoreapp2.1\SnookerTrainingCore.API.Tests.runtimeconfig.json
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.API.Tests\bin\Debug\netcoreapp2.1\SnookerTrainingCore.API.Tests.runtimeconfig.dev.json
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.API.Tests\bin\Debug\netcoreapp2.1\SnookerTrainingCore.API.Tests.dll
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.API.Tests\bin\Debug\netcoreapp2.1\SnookerTrainingCore.API.Tests.pdb
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.API.Tests\obj\Debug\netcoreapp2.1\SnookerTrainingCore.API.Tests.csprojAssemblyReference.cache
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.API.Tests\obj\Debug\netcoreapp2.1\SnookerTrainingCore.API.Tests.csproj.CoreCompileInputs.cache
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.API.Tests\obj\Debug\netcoreapp2.1\SnookerTrainingCore.API.Tests.AssemblyInfoInputs.cache
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.API.Tests\obj\Debug\netcoreapp2.1\SnookerTrainingCore.API.Tests.AssemblyInfo.cs
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.API.Tests\obj\Debug\netcoreapp2.1\SnookerTrainingCore.API.Tests.dll
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.API.Tests\obj\Debug\netcoreapp2.1\SnookerTrainingCore.API.Tests.pdb

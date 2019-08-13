@@ -26,3 +26,17 @@ C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore\SnookerTrainingCore.Inf
 C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore\SnookerTrainingCore.Infra\obj\Debug\netcoreapp2.1\SnookerTrainingCore.Infra.csproj.CopyComplete
 C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore\SnookerTrainingCore.Infra\obj\Debug\netcoreapp2.1\SnookerTrainingCore.Infra.dll
 C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore\SnookerTrainingCore.Infra\obj\Debug\netcoreapp2.1\SnookerTrainingCore.Infra.pdb
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.Infra\bin\Debug\netcoreapp2.1\SnookerTrainingCore.Infra.deps.json
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.Infra\bin\Debug\netcoreapp2.1\SnookerTrainingCore.Infra.runtimeconfig.json
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.Infra\bin\Debug\netcoreapp2.1\SnookerTrainingCore.Infra.runtimeconfig.dev.json
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.Infra\bin\Debug\netcoreapp2.1\SnookerTrainingCore.Infra.dll
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.Infra\bin\Debug\netcoreapp2.1\SnookerTrainingCore.Infra.pdb
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.Infra\bin\Debug\netcoreapp2.1\SnookerTrainingCore.Domain.dll
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.Infra\bin\Debug\netcoreapp2.1\SnookerTrainingCore.Domain.pdb
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.Infra\obj\Debug\netcoreapp2.1\SnookerTrainingCore.Infra.csprojAssemblyReference.cache
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.Infra\obj\Debug\netcoreapp2.1\SnookerTrainingCore.Infra.csproj.CoreCompileInputs.cache
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.Infra\obj\Debug\netcoreapp2.1\SnookerTrainingCore.Infra.AssemblyInfoInputs.cache
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.Infra\obj\Debug\netcoreapp2.1\SnookerTrainingCore.Infra.AssemblyInfo.cs
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.Infra\obj\Debug\netcoreapp2.1\SnookerTrainingCore.Infra.csproj.CopyComplete
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.Infra\obj\Debug\netcoreapp2.1\SnookerTrainingCore.Infra.dll
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.Infra\obj\Debug\netcoreapp2.1\SnookerTrainingCore.Infra.pdb

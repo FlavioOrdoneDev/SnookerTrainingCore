@@ -1,5 +1,6 @@
 ﻿using SnookerTrainingCore.ApplicationService.AppModels;
 using SnookerTrainingCore.ApplicationService.AppServicos.Interfaces;
+using SnookerTrainingCore.Domain.Entidades;
 using SnookerTrainingCore.Domain.Servicos.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -17,6 +18,20 @@ namespace SnookerTrainingCore.ApplicationService.AppServicos
             _treinoServico = treinoServico;
         }
 
+        public void Adicionar(Treino treino)
+        {
+            _treinoServico.Adicionar(treino);
+        }
+
+        public void Atualizar(Treino treino)
+        {
+            _treinoServico.Atualizar(treino);
+        }
+
+        public void Remover(Treino treino)
+        {
+            _treinoServico.Remover(treino);
+        }
 
         public TreinoViewModel ObterPorId(int id)
         {
@@ -84,6 +99,6 @@ namespace SnookerTrainingCore.ApplicationService.AppServicos
             }
 
             return treinosViewModel;
-        }
+        }        
     }
 }
