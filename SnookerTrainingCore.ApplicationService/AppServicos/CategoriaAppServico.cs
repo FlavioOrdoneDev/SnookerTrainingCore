@@ -1,6 +1,7 @@
 ﻿using SnookerTrainingCore.ApplicationService.AppModels;
 using SnookerTrainingCore.ApplicationService.AppModels.Templates;
 using SnookerTrainingCore.ApplicationService.AppServicos.Interfaces;
+using SnookerTrainingCore.Domain.Entidades;
 using SnookerTrainingCore.Domain.Servicos.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -16,6 +17,21 @@ namespace SnookerTrainingCore.ApplicationService.AppServicos
         public CategoriaAppServico(ICategoriaServico categoriaServico)
         {
             _categoriaServico = categoriaServico;
+        }
+
+        public void Adicionar(Categoria categoria)
+        {
+            _categoriaServico.Adicionar(categoria);
+        }
+
+        public void Atualizar(Categoria categoria)
+        {
+            _categoriaServico.Atualizar(categoria);
+        }
+
+        public void Remover(Categoria categoria)
+        {
+            _categoriaServico.Remover(categoria);
         }
 
         public CategoriaViewModel ObterPorId(int id)

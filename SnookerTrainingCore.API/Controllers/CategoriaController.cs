@@ -1,22 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using SnookerTrainingCore.ApplicationService.AppModels;
 using SnookerTrainingCore.ApplicationService.AppModels.Templates;
 using SnookerTrainingCore.ApplicationService.AppServicos.Interfaces;
 using SnookerTrainingCore.Domain.Entidades;
-using SnookerTrainingCore.Domain.Servicos.Interfaces;
 
 namespace SnookerTrainingCore.API.Controllers
 {
     public class CategoriaController : Controller
     {
-        private readonly ICategoriaServico _categoriaServico;
         private readonly ICategoriaAppServico _categoriaAppServico;
 
-        public CategoriaController(ICategoriaServico categoriaServico, ICategoriaAppServico categoriaAppServico)
+        public CategoriaController(ICategoriaAppServico categoriaAppServico)
         {
-            _categoriaServico = categoriaServico;
             _categoriaAppServico = categoriaAppServico;
         }
 
@@ -48,7 +44,7 @@ namespace SnookerTrainingCore.API.Controllers
         [HttpPost]
         public Categoria Post([FromBody]Categoria categoria)
         {
-            _categoriaServico.Adicionar(categoria);
+            _categoriaAppServico.Adicionar(categoria);
             return categoria;
         }
 
@@ -56,7 +52,7 @@ namespace SnookerTrainingCore.API.Controllers
         [HttpPut]
         public Categoria Put([FromBody]Categoria categoria)
         {
-            _categoriaServico.Atualizar(categoria);
+            _categoriaAppServico.Atualizar(categoria);
             return categoria;
         }
 
@@ -64,7 +60,7 @@ namespace SnookerTrainingCore.API.Controllers
         [HttpDelete]
         public Categoria Delete([FromBody]Categoria categoria)
         {
-            _categoriaServico.Remover(categoria);
+            _categoriaAppServico.Remover(categoria);
             return categoria;
         }
     }
