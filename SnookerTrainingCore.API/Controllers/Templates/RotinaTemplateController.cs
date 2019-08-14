@@ -1,31 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using SnookerTrainingCore.ApplicationService.AppModels.Templates;
 using SnookerTrainingCore.ApplicationService.AppServicos.Interfaces.Templates;
 using SnookerTrainingCore.Domain.Entidades.Templates;
-using SnookerTrainingCore.Domain.Servicos.Interfaces;
 
 namespace SnookerTrainingCore.API.Controllers.Templates
 {
     public class RotinaTemplateController : Controller
     {
-        private readonly IRotinaTemplateServico _rotinaTemplateServico;
         private readonly IRotinaTemplateAppServico _rotinaTemplateAppServico;
 
-        public RotinaTemplateController(IRotinaTemplateServico rotinaTemplateServico, IRotinaTemplateAppServico rotinaTemplateAppServico)
+        public RotinaTemplateController(IRotinaTemplateAppServico rotinaTemplateAppServico)
         {
-            _rotinaTemplateServico = rotinaTemplateServico;
             _rotinaTemplateAppServico = rotinaTemplateAppServico;
         }
 
         [Route("v1/rotinasTemplate")]
         [HttpGet]
-        public IEnumerable<RotinaTemplate> Get()
+        public IEnumerable<RotinaTemplateViewModel> Get()
         {
-            var rotinas = _rotinaTemplateServico.ObterTodas();
+            var rotinas = _rotinaTemplateAppServico.ObterTodas();
             return rotinas;
         }
 
@@ -41,7 +35,7 @@ namespace SnookerTrainingCore.API.Controllers.Templates
         [HttpPost]
         public RotinaTemplate Post([FromBody]RotinaTemplate rotina)
         {
-            _rotinaTemplateServico.Adicionar(rotina);
+            _rotinaTemplateAppServico.Adicionar(rotina);
             return rotina;
         }
 
@@ -49,7 +43,7 @@ namespace SnookerTrainingCore.API.Controllers.Templates
         [HttpPut]
         public RotinaTemplate Put([FromBody]RotinaTemplate rotina)
         {
-            _rotinaTemplateServico.Atualizar(rotina);
+            _rotinaTemplateAppServico.Atualizar(rotina);
             return rotina;
         }
 
@@ -57,7 +51,7 @@ namespace SnookerTrainingCore.API.Controllers.Templates
         [HttpDelete]
         public RotinaTemplate Delete([FromBody]RotinaTemplate rotina)
         {
-            _rotinaTemplateServico.Remover(rotina);
+            _rotinaTemplateAppServico.Remover(rotina);
             return rotina;
         }
     }
