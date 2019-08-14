@@ -44,7 +44,7 @@ namespace SnookerTrainingCore.Infra.Repositorios
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
         }
 
         public Pontuacao ObterPorId(int id)

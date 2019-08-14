@@ -38,7 +38,7 @@ namespace SnookerTrainingCore.Infra.Repositorios
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
         }
 
         public Resultado ObterPorId(int id)

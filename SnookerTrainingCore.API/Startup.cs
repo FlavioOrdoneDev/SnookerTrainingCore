@@ -46,6 +46,8 @@ namespace SnookerTrainingCore.API
             services.AddTransient<IRotinaTemplateAppServico, RotinaTemplateAppServico>();
             services.AddTransient<ITreinoTemplateAppServico, TreinoTemplateAppServico>();
             services.AddTransient<IRotinaAppServico, RotinaAppServico>();
+            services.AddTransient<ITreinoAppServico, TreinoAppServico>();
+            services.AddTransient<IPontuacaoAppServico, PontuacaoAppServico>();
 
             services.AddTransient<ICategoriaServico, CategoriaServico>();
             services.AddTransient<IRotinaTemplateServico, RotinaTemplateServico>();
