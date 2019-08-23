@@ -104,7 +104,7 @@ using SnookerTrainingCore.MVC.Models;
             WriteLiteral("\r\n        </dd>\r\n    </dl>\r\n</div>\r\n<hr />\r\n<div>\r\n    ");
             EndContext();
             BeginContext(612, 67, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8c514e8df8d8487e80b1d5113e0faa78", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ecee7541f9544c48a70d7b7695f698eb", async() => {
                 BeginContext(669, 6, true);
                 WriteLiteral("Editar");
                 EndContext();
@@ -139,7 +139,7 @@ using SnookerTrainingCore.MVC.Models;
             WriteLiteral(" |\r\n    ");
             EndContext();
             BeginContext(687, 32, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1f7de202ffd74c1e9ce2fa31519cf987", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7f1783d5567b442eb123c8df799205a3", async() => {
                 BeginContext(709, 6, true);
                 WriteLiteral("Voltar");
                 EndContext();

@@ -33,7 +33,7 @@ namespace SnookerTrainingCore.Infra.Repositorios
 
         public IEnumerable<Rotina> Buscar(Expression<Func<Rotina, bool>> predicate)
         {
-            return _contexto.Rotinas.Include(r => r.RotinaTemplate).Where(predicate).AsNoTracking();
+            return _contexto.Rotinas.Include(x => x.Pontos).Include(r => r.RotinaTemplate).Where(predicate).AsNoTracking();
         }
 
         public void Dispose()
@@ -48,7 +48,7 @@ namespace SnookerTrainingCore.Infra.Repositorios
 
         public IEnumerable<Rotina> ObterTodos()
         {
-            return _contexto.Rotinas.Include(x => x.Pontos).AsNoTracking();
+            return _contexto.Rotinas.Include(x => x.Pontos).Include(r => r.RotinaTemplate).AsNoTracking();
         }
 
         public IEnumerable<Pontuacao> ObterPontuacao(int id)

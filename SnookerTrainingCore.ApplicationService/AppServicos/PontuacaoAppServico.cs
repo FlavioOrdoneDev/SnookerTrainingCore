@@ -27,9 +27,23 @@ namespace SnookerTrainingCore.ApplicationService.AppServicos
             _pontuacaoServico.Atualizar(pontuacao);
         }
 
+        public void Remover(Pontuacao pontuacao)
+        {
+            _pontuacaoServico.Remover(pontuacao);
+        }
+
         public PontuacaoViewModel ObterPorId(int id)
         {
-            throw new NotImplementedException();
+            var pontuacao = _pontuacaoServico.ObterPorId(id);
+
+            var pontuacaoViewModel = new PontuacaoViewModel
+            {
+                IdPontuacao = pontuacao.IdPontuacao,
+                MatouTodasAsBolas = pontuacao.MatouTodasAsBolas,
+                Pontos = pontuacao.Pontos
+            };
+
+            return pontuacaoViewModel;
         }
 
         public RotinaViewModel ObterRotina(int id)
@@ -39,12 +53,22 @@ namespace SnookerTrainingCore.ApplicationService.AppServicos
 
         public IEnumerable<PontuacaoViewModel> ObterTodas()
         {
-            throw new NotImplementedException();
-        }
+            var pontuacoes = _pontuacaoServico.ObterTodos();
 
-        public void Remover(Pontuacao pontuacao)
-        {
-            _pontuacaoServico.Remover(pontuacao);
+            var pontuacoesViewModel = new List<PontuacaoViewModel>();
+
+            foreach (var pontuacao in pontuacoes)
+            {
+                pontuacoesViewModel.Add(new PontuacaoViewModel
+                {
+                    IdPontuacao = pontuacao.IdPontuacao,
+                    MatouTodasAsBolas = pontuacao.MatouTodasAsBolas,
+                    Pontos = pontuacao.Pontos
+                    
+                });
+            }
+
+            return pontuacoesViewModel;
         }
     }
 }

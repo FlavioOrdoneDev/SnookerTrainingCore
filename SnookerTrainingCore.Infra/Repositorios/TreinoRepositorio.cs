@@ -32,7 +32,7 @@ namespace SnookerTrainingCore.Infra.Repositorios
 
         public IEnumerable<Treino> Buscar(Expression<Func<Treino, bool>> predicate)
         {
-            return _contexto.Treinos.Where(predicate).AsNoTracking();
+            return _contexto.Treinos.Include(r => r.Rotinas).Include(t => t.TreinoTemplate).Where(predicate).AsNoTracking();
         }
 
         public void Dispose()
@@ -42,12 +42,12 @@ namespace SnookerTrainingCore.Infra.Repositorios
 
         public Treino ObterPorId(int id)
         {
-            return _contexto.Treinos.Where(x => x.IdTreino == id).FirstOrDefault();
+            return _contexto.Treinos.Include(r => r.Rotinas).Include(t => t.TreinoTemplate).Where(x => x.IdTreino == id).FirstOrDefault();
         }
 
         public IEnumerable<Treino> ObterTodos()
         {
-            return _contexto.Treinos.AsNoTracking();
+            return _contexto.Treinos.Include(r => r.Rotinas).Include(t => t.TreinoTemplate).AsNoTracking();
         }
 
         public void Remover(Treino obj)

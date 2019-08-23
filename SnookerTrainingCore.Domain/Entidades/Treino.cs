@@ -21,6 +21,6 @@ namespace SnookerTrainingCore.Domain.Entidades
         public TimeSpan? Duracao { get; set; }
         public string Observacao { get; set; }
         //public virtual ICollection<Resultado> Resultados { get; set; }
-        public ICollection<Rotina> Rotinas { get; set; }       
+        public virtual ICollection<Rotina> Rotinas { get; set; }       
     }
 }

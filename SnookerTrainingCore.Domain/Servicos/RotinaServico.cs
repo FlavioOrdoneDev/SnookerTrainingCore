@@ -53,8 +53,7 @@ namespace SnookerTrainingCore.Domain.Servicos
         public IEnumerable<Pontuacao> ObterPontuacao(int id)
         {
             return _rotinaRepositorio.ObterPontuacao(id);
-        }
-       
+        }       
 
         public void Remover(Rotina rotina)
         {

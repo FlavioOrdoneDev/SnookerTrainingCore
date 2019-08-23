@@ -43,7 +43,6 @@ namespace SnookerTrainingCore.ApplicationService.AppServicos.Templates
             };
 
             return treinoTemplateViewModel;
-
         }
 
         public IEnumerable<TreinoTemplateViewModel> ObterTodos()

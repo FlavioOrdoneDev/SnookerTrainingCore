@@ -20,7 +20,7 @@ namespace SnookerTrainingCore.Infra.Repositorios
         }
         public void Adicionar(Pontuacao pontuacao)
         {
-            // _contexto.Pontuacao.Add(pontuacao);
+            _contexto.Pontuacoes.Add(pontuacao);
             Salvar();
         }
 
@@ -38,8 +38,7 @@ namespace SnookerTrainingCore.Infra.Repositorios
 
         public IEnumerable<Pontuacao> Buscar(Expression<Func<Pontuacao, bool>> predicate)
         {
-            //return _contexto.Pontuacao.Where(predicate).AsNoTracking();
-            return null;
+            return _contexto.Pontuacoes.Where(predicate).AsNoTracking();
         }
 
         public void Dispose()
@@ -49,19 +48,17 @@ namespace SnookerTrainingCore.Infra.Repositorios
 
         public Pontuacao ObterPorId(int id)
         {
-            //return _contexto.Pontuacao.Where(x => x.IdPontuacao == id).FirstOrDefault();
-            return null;
+            return _contexto.Pontuacoes.Where(x => x.IdPontuacao == id).FirstOrDefault();
         }
 
         public IEnumerable<Pontuacao> ObterTodos()
         {
-            //return _contexto.Pontuacao.AsNoTracking();
-            return null;
+            return _contexto.Pontuacoes.AsNoTracking();
         }
 
         public void Remover(Pontuacao pontuacao)
         {
-            //_contexto.Pontuacao.Remove(obj);
+            _contexto.Pontuacoes.Remove(pontuacao);
             Salvar();
         }
 

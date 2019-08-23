@@ -36,16 +36,11 @@ namespace SnookerTrainingCore.ApplicationService.AppServicos
         public RotinaModel ObterResultadoDaRotina(int id)
         {
             throw new NotImplementedException();
-        }
-
-        public IEnumerable<RotinaViewModel> ObterTodas()
-        {
-            throw new NotImplementedException();
-        }
+        }        
 
         public void Remover(Rotina rotina)
         {
-            throw new NotImplementedException();
+            _rotinaServico.Remover(rotina);
         }
 
         public RotinaViewModel ObterPorId(int id)
@@ -71,6 +66,36 @@ namespace SnookerTrainingCore.ApplicationService.AppServicos
             };
 
             return rotinaViewModel;
+        }
+
+        public IEnumerable<RotinaViewModel> ObterTodas()
+        {
+            var rotinas = _rotinaServico.ObterTodas();
+
+            var rotinasViewModel = new List<RotinaViewModel>();
+
+            foreach (var rotina in rotinas)
+            {
+                rotinasViewModel.Add(new RotinaViewModel
+                {
+                    IdRotina = rotina.IdRotina,
+                    Nome = rotina.RotinaTemplate.Nome,
+                    Descricao = rotina.RotinaTemplate.Descricao,
+                    TipoMeta = rotina.RotinaTemplate.TipoMeta.ToString(),
+                    Meta = rotina.RotinaTemplate.Meta,
+                    BreakMaximo = rotina.BreakMaximo,
+                    Media = rotina.Media,
+                    Observacao = rotina.Observacao,
+                    Pontos = rotina.Pontos.Select(x => new PontuacaoViewModel
+                    {
+                        IdPontuacao = x.IdPontuacao,
+                        MatouTodasAsBolas = x.MatouTodasAsBolas,
+                        Pontos = x.Pontos
+                    }).ToList()
+                });
+            }
+
+            return rotinasViewModel;
         }
     }
 }

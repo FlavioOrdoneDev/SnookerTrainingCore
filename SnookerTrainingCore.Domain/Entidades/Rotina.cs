@@ -25,7 +25,6 @@ namespace SnookerTrainingCore.Domain.Entidades
         public int IdTreino { get; set; }
         public Treino Treino { get; set; }        
         public virtual ICollection<Pontuacao> Pontos { get; set; }
-        //public virtual ICollection<TreinoRotina> TreinoRotinas { get; set; }
 
         public double? ObterMedia()
         {

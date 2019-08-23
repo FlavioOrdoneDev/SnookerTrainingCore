@@ -50,10 +50,10 @@ namespace SnookerTrainingCore.ApplicationService.AppServicos
                 Rotinas = treino.Rotinas.Select(x => new RotinaViewModel
                 {
                     IdRotina = x.IdRotina,
-                    Nome = x.RotinaTemplate.Nome,
-                    Descricao = x.RotinaTemplate.Descricao,
-                    TipoMeta = x.RotinaTemplate.TipoMeta.ToString(),
-                    Meta = x.RotinaTemplate.Meta,
+                    //Nome = x.RotinaTemplate.Nome,
+                    //Descricao = x.RotinaTemplate.Descricao,
+                    //TipoMeta = x.RotinaTemplate.TipoMeta.ToString(),
+                    //Meta = x.RotinaTemplate.Meta,
                     BreakMaximo = x.ObterBreakMaximo(),
                     Media = x.ObterMedia(),
                     Observacao = x.Observacao
@@ -86,10 +86,10 @@ namespace SnookerTrainingCore.ApplicationService.AppServicos
                     Rotinas = treino.Rotinas.Select(x => new RotinaViewModel
                     {
                         IdRotina = x.IdRotina,
-                        Nome = x.RotinaTemplate.Nome,
-                        Descricao = x.RotinaTemplate.Descricao,
-                        TipoMeta = x.RotinaTemplate.TipoMeta.ToString(),
-                        Meta = x.RotinaTemplate.Meta,
+                        //Nome = x.RotinaTemplate.Nome,
+                        //Descricao = x.RotinaTemplate.Descricao,
+                        //TipoMeta = x.RotinaTemplate.TipoMeta.ToString(),
+                        //Meta = x.RotinaTemplate.Meta,
                         BreakMaximo = x.ObterBreakMaximo(),
                         Media = x.ObterMedia(),
                         Observacao = x.Observacao

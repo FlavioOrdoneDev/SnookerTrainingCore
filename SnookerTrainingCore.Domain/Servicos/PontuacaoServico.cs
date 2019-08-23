@@ -1,4 +1,5 @@
 ﻿using SnookerTrainingCore.Domain.Entidades;
+using SnookerTrainingCore.Domain.Repositorios.Interfaces;
 using SnookerTrainingCore.Domain.Servicos.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -8,29 +9,36 @@ namespace SnookerTrainingCore.Domain.Servicos
 {
     public class PontuacaoServico : IPontuacaoServico
     {
+        private readonly IPontuacaoRepositorio _pontuacaoRepositorio;
+
+        public PontuacaoServico(IPontuacaoRepositorio pontuacaoRepositorio)
+        {
+            _pontuacaoRepositorio = pontuacaoRepositorio;
+        }
+
         public void Adicionar(Pontuacao pontuacao)
         {
-            throw new NotImplementedException();
+            _pontuacaoRepositorio.Adicionar(pontuacao);
         }
 
         public void Atualizar(Pontuacao pontuacao)
         {
-            throw new NotImplementedException();
+            _pontuacaoRepositorio.Atualizar(pontuacao);
         }
 
         public Pontuacao ObterPorId(int id)
         {
-            throw new NotImplementedException();
+            return _pontuacaoRepositorio.ObterPorId(id);
         }
 
         public IEnumerable<Pontuacao> ObterTodos()
         {
-            throw new NotImplementedException();
+            return _pontuacaoRepositorio.ObterTodos();
         }
 
         public void Remover(Pontuacao pontuacao)
         {
-            throw new NotImplementedException();
+            _pontuacaoRepositorio.Remover(pontuacao);
         }
     }
 }

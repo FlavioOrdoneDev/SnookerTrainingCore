@@ -25,9 +25,7 @@ namespace SnookerTrainingCore.Domain.Servicos
                 IdTreino = treino.IdTreino,
                 NomeTreino = treino.TreinoTemplate.Nome,
                 Data = data,
-                //Duracao
-                Descricao = treino.TreinoTemplate.Descricao
-                //ResultadoRotinas = ObterRotinas(treino.Rotinas)                
+                Descricao = treino.TreinoTemplate.Descricao              
             };
 
             return gerarResultado;

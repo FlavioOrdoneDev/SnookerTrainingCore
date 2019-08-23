@@ -62,7 +62,7 @@ using SnookerTrainingCore.MVC.Models;
             WriteLiteral("\r\n<h2>Categoria</h2>\r\n\r\n<p>\r\n    ");
             EndContext();
             BeginContext(143, 49, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "14c656cccc4e454bbcd264f2a7b21706", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "294af24619944feb897009c14034fb79", async() => {
                 BeginContext(169, 19, true);
                 WriteLiteral("Adicionar Categoria");
                 EndContext();
@@ -128,7 +128,7 @@ using SnookerTrainingCore.MVC.Models;
             WriteLiteral("\r\n                </td>\r\n                <td>\r\n                    ");
             EndContext();
             BeginContext(793, 66, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d6f19717d2bf4da5b9011346a7036f1d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b57f2a72bf944639aad586bc604d2c9d", async() => {
                 BeginContext(849, 6, true);
                 WriteLiteral("Editar");
                 EndContext();
@@ -163,7 +163,7 @@ using SnookerTrainingCore.MVC.Models;
             WriteLiteral("\r\n                </td>\r\n                <td>\r\n                    ");
             EndContext();
             BeginContext(926, 70, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "00978141e9b1428e88cc3e1c225b7dd3", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e18b3f50d62e4fdbb5bca5aaf430c60d", async() => {
                 BeginContext(984, 8, true);
                 WriteLiteral("Detalhes");
                 EndContext();

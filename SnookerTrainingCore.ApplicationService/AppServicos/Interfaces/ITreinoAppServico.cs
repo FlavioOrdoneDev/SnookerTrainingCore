@@ -13,7 +13,5 @@ namespace SnookerTrainingCore.ApplicationService.AppServicos.Interfaces
         void Adicionar(Treino treino);
         void Atualizar(Treino treino);
         void Remover(Treino treino);
-
-
     }
 }
