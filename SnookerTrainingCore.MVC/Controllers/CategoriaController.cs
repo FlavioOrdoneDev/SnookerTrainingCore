@@ -31,20 +31,20 @@ namespace SnookerTrainingCore.MVC.Controllers
         [HttpPost]
         public ActionResult Adicionar(Categoria categoria)
         {
-            //if (ModelState.IsValid)
-            //{
-            //    _categoriaServico.Adicionar(categoria);
-            //}
-            //else
-            //{
-            //    RedirectToAction("Index");
-            //}
+            if (ModelState.IsValid)
+            {
+                _categoriaServico.Adicionar(categoria);
+            }
+            else
+            {
+                RedirectToAction("Index");
+            }
 
             _categoriaServico.Adicionar(categoria);
 
-            var resultado = _categoriaServico.ObterTodas();
+            var entidade = _categoriaServico.ObterTodas();
 
-            return View("Index", resultado);
+            return View("Index", entidade);
         }
 
         public ActionResult Editar(int id)
@@ -70,7 +70,9 @@ namespace SnookerTrainingCore.MVC.Controllers
                 RedirectToAction("Index");
             }
 
-            return View("ndex");
+            var entidade = _categoriaServico.ObterTodas();
+
+            return View("Index", entidade);
         }
 
         public ActionResult Detalhes(int id)

@@ -1,0 +1,125 @@
+:root {
+    font-size: 60%;
+
+    --color-background: #F0F0F7;
+    --color-primary-lighter: #59cc63;
+    --color-primary-light: #4bbd55;
+    --color-primary: #3aa743;
+    --color-primary-dark: #33963b;
+    --color-primary-darker: #2b7c32;
+    --color-secondary: #04D361;
+    --color-secondary-dark: #04BF58;
+    --color-title-in-primary: #FFFFFF;
+    --color-text-in-primary: #D4C2FF;
+    --color-text-title: #32264D;
+    --color-text-complement: #9C98A6;
+    --color-text-base: #6A6180;
+    --color-line-in-white: #E6E6F0;
+    --color-input-background: #F8F8FC;
+    --color-button-text: #FFFFFF;
+    --color-box-base: #FFFFFF;
+    --color-box-footer: #FAFAFC;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, Arial, sans-serif;
+    font-weight: 700;
+}
+
+html, body, #root {
+    height: 100vh;
+}
+
+body {
+    background: var(--color-background);    
+}
+
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body,
+input,
+button,
+textarea {
+    font: 500 1.6rem Montserrat, Arial, sans-serif;
+    color: var(--color-text-base);
+}
+
+.container {
+    width: 90vw;
+    max-width: 700px;
+}
+
+@media (min-width: 700px) {
+    :root {
+        font-size: 62.5%;
+    }
+}
+
+.page-header {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-primary);
+    max-height: 6rem;
+}
+
+.page-header .top-bar-container {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--color-text-in-primary);
+    padding: 1.6rem 0;
+}
+
+.page-header .top-bar-container a {
+    height: 3.2rem;
+    transition: opacity 0.2s;
+}
+
+.page-header .top-bar-container a:hover {
+    opacity: 0.6;
+}
+
+.page-header .top-bar-container > img {
+    height: 2.6rem;
+}
+
+.page-header .top-bar-container > P {
+    color: var(--color-title-in-primary);
+    font-size: 2rem;
+}
+
+.page-header .top-bar-container > p > a {
+    color: var(--color-title-in-primary);
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.page-header .header-content {
+width: 90%;
+margin: 0 auto;
+position: relative;
+margin: 3.2rem auto;
+}
+
+    .page-header .header-content strong {
+        font: 700 3.6rem Montserrat, Arial, sans-serif;
+        line-height: 1.2rem;
+        color: var(--color-title-in-primary);
+    }
+
+.page-header .header-content p {
+    max-width: 30rem;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: var(--color-text-in-primary);
+    margin-top: 2.4rem;
+}

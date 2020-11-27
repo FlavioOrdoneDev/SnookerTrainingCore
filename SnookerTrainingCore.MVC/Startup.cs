@@ -78,7 +78,7 @@ namespace SnookerTrainingCore.MVC
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=Categoria}/{action=Index}/{id?}");
             });
         }
     }

@@ -1,49 +1,58 @@
 ﻿@model IEnumerable<SnookerTrainingCore.Domain.Entidades.Categoria>;
-@{
-    ViewData["Title"] = "Index";
-}
 
-<h2>Categoria</h2>
+    <link href="~/css/styles/listar-categoria.css" rel="stylesheet" />
 
-<p>
-    <a asp-action="Adicionar">Adicionar Categoria</a>
-</p>
-<div>
-    <table>
-        <thead>
-            <tr>
-                <th>
-                    Nome
-                </th>
-                <th>
-                    Descrição
-                </th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in Model)
-            { 
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Nome)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Descricao)
-                </td>
-                <td>
-                    <a asp-action="Editar" asp-route-id="@item.IdCategoria">Editar</a>
-                </td>
-                <td>
-                    <a asp-action="Detalhes" asp-route-id="@item.IdCategoria">Detalhes</a>
-                </td>
-                    
-            </tr>
-            }
-        </tbody>
-    </table>
-</div>
-<hr />
-<div>
-    
-</div>
+    <div id="page-form" class="container">
+        <main>
+            <div class="top">
+                <div>
+                    <p>Adicionar Categoria</p>
+                </div>
+                <div class="input-block">
+                    <a type="button" asp-action="Adicionar" id="btn-add-categoria">Adicionar</a>
+                </div>
+            </div>            
+            <fieldset>
+                <legend>Categorias</legend>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>
+                                Nome
+                            </th>
+                            <th>
+                                Descrição
+                            </th>
+                            <th>
+
+                            </th>
+                            <th>
+
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Nome)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Descricao)
+                                </td>
+                                <td>
+                                    <a asp-action="Editar" asp-route-id="@item.IdCategoria">Editar</a>
+                                </td>
+                                <td>
+                                    <a asp-action="Detalhes" asp-route-id="@item.IdCategoria">Detalhes</a>
+                                </td>
+
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </fieldset>
+        </main>
+    </div>
 
