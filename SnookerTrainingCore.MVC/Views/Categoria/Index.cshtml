@@ -9,7 +9,7 @@
                     <p>Adicionar Categoria</p>
                 </div>
                 <div class="input-block">
-                    <a type="button" asp-action="Adicionar" id="btn-add-categoria">Adicionar</a>
+                    <a type="button" asp-action="Adicionar" id="btn-add">Adicionar</a>
                 </div>
             </div>            
             <fieldset>
@@ -24,31 +24,33 @@
                                 Descrição
                             </th>
                             <th>
-
                             </th>
                             <th>
-
+                            </th>
+                            <th>
                             </th>
                         </tr>
                     </thead>
                     <tbody>
                         @foreach (var item in Model)
                         {
-                            <tr>
-                                <td>
-                                    @Html.DisplayFor(modelItem => item.Nome)
-                                </td>
-                                <td>
-                                    @Html.DisplayFor(modelItem => item.Descricao)
-                                </td>
-                                <td>
-                                    <a asp-action="Editar" asp-route-id="@item.IdCategoria">Editar</a>
-                                </td>
-                                <td>
-                                    <a asp-action="Detalhes" asp-route-id="@item.IdCategoria">Detalhes</a>
-                                </td>
-
-                            </tr>
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Nome)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Descricao)
+                            </td>
+                            <td>
+                                <a asp-action="Editar" asp-route-id="@item.IdCategoria">Editar</a>
+                            </td>
+                            <td>
+                                <a asp-action="Detalhes" asp-route-id="@item.IdCategoria">Detalhes</a>
+                            </td>
+                            <td>
+                                <a asp-action="Delete" asp-route-id="@item.IdCategoria">Remover</a>
+                            </td>
+                        </tr>
                         }
                     </tbody>
                 </table>
