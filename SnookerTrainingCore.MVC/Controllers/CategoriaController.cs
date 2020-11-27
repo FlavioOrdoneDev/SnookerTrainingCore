@@ -17,12 +17,14 @@ namespace SnookerTrainingCore.MVC.Controllers
             _categoriaServico = categoriaServico;
         }
 
+        [HttpGet]
         public ActionResult Index()
         {
             var categorias = _categoriaServico.ObterTodas();
             return View(categorias);
         }
 
+        [HttpGet]
         public ActionResult Adicionar()
         {
             return View();
@@ -47,6 +49,7 @@ namespace SnookerTrainingCore.MVC.Controllers
             return View("Index", entidade);
         }
 
+        [HttpGet]
         public ActionResult Editar(int id)
         {
             var categoria = _categoriaServico.ObterPorId(id);
@@ -75,6 +78,7 @@ namespace SnookerTrainingCore.MVC.Controllers
             return View("Index", entidade);
         }
 
+        [HttpGet]
         public ActionResult Detalhes(int id)
         {
             var categoria = _categoriaServico.ObterPorId(id);
