@@ -42,7 +42,9 @@ namespace SnookerTrainingCore.MVC.Controllers
 
             _categoriaServico.Adicionar(categoria);
 
-            return View("Index");
+            var resultado = _categoriaServico.ObterTodas();
+
+            return View("Index", resultado);
         }
 
         public ActionResult Editar(int id)

@@ -7,9 +7,10 @@ namespace SnookerTrainingCore.Domain.Entidades
     {
         public Categoria() { }
 
-        public Categoria(string nome)
+        public Categoria(string nome, string descricao)
         {
-            this.Nome = nome;
+            Nome = nome;
+            Descricao = descricao;
         }
 
         public int IdCategoria { get; set; }

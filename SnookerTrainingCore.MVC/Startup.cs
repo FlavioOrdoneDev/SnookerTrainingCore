@@ -10,6 +10,7 @@ using SnookerTrainingCore.Domain.Servicos;
 using SnookerTrainingCore.Domain.Servicos.Interfaces;
 using SnookerTrainingCore.Infra.Contexto;
 using SnookerTrainingCore.Infra.Repositorios;
+using SnookerTrainingCore.Infra.SeedingService;
 
 namespace SnookerTrainingCore.MVC
 {
@@ -29,6 +30,7 @@ namespace SnookerTrainingCore.MVC
 
 
             services.AddScoped<SnookerContexto, SnookerContexto>();
+            services.AddScoped<SeedingService, SeedingService>();
 
             services.AddTransient<ICategoriaServico, CategoriaServico>();
             services.AddTransient<IRotinaServico, RotinaServico>();
@@ -55,11 +57,12 @@ namespace SnookerTrainingCore.MVC
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, SeedingService seedingService)
         {
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                seedingService.Seed();
             }
             else
             {

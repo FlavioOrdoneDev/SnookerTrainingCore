@@ -52,3 +52,6 @@ C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.ApplicationService\obj\
 C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.ApplicationService\obj\Debug\netcoreapp2.1\SnookerTrainingCore.ApplicationService.csproj.CopyComplete
 C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.ApplicationService\obj\Debug\netcoreapp2.1\SnookerTrainingCore.ApplicationService.dll
 C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.ApplicationService\obj\Debug\netcoreapp2.1\SnookerTrainingCore.ApplicationService.pdb
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.ApplicationService\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.ApplicationService\bin\Debug\netcoreapp2.1\appsettings.json
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.ApplicationService\bin\Debug\netcoreapp2.1\Properties\launchSettings.json

@@ -49,3 +49,4 @@ C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.Domain.Tests\obj\Debug\
 C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.Domain.Tests\obj\Debug\netcoreapp2.1\SnookerTrainingCore.Domain.Tests.csproj.CopyComplete
 C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.Domain.Tests\obj\Debug\netcoreapp2.1\SnookerTrainingCore.Domain.Tests.dll
 C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.Domain.Tests\obj\Debug\netcoreapp2.1\SnookerTrainingCore.Domain.Tests.pdb
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.Domain.Tests\obj\Debug\netcoreapp2.1\SnookerTrainingCore.Domain.Tests.genruntimeconfig.cache

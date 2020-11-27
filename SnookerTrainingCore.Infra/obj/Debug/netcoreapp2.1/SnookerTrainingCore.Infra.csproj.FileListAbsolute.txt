@@ -40,3 +40,4 @@ C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.Infra\obj\Debug\netcore
 C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.Infra\obj\Debug\netcoreapp2.1\SnookerTrainingCore.Infra.csproj.CopyComplete
 C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.Infra\obj\Debug\netcoreapp2.1\SnookerTrainingCore.Infra.dll
 C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.Infra\obj\Debug\netcoreapp2.1\SnookerTrainingCore.Infra.pdb
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.Infra\obj\Debug\netcoreapp2.1\SnookerTrainingCore.Infra.genruntimeconfig.cache
