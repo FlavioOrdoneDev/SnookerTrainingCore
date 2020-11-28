@@ -67,8 +67,13 @@ C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.API\bin\Debug\netcoreap
 C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.API\obj\Debug\netcoreapp2.1\SnookerTrainingCore.API.csprojAssemblyReference.cache
 C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.API\obj\Debug\netcoreapp2.1\SnookerTrainingCore.API.AssemblyInfoInputs.cache
 C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.API\obj\Debug\netcoreapp2.1\SnookerTrainingCore.API.AssemblyInfo.cs
-C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.API\obj\Debug\netcoreapp2.1\SnookerTrainingCore.API.csproj.CoreCompileInputs.cache
 C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.API\obj\Debug\netcoreapp2.1\SnookerTrainingCore.API.csproj.CopyComplete
 C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.API\obj\Debug\netcoreapp2.1\SnookerTrainingCore.API.dll
 C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.API\obj\Debug\netcoreapp2.1\SnookerTrainingCore.API.pdb
 C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.API\obj\Debug\netcoreapp2.1\SnookerTrainingCore.API.genruntimeconfig.cache
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.API\obj\Debug\netcoreapp2.1\SnookerTrainingCore.API.csproj.CoreCompileInputs.cache
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.API\bin\Debug\netcoreapp2.1\SnookerTrainingCore.MVC.Views.dll
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.API\bin\Debug\netcoreapp2.1\SnookerTrainingCore.MVC.Views.pdb
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.API\obj\Debug\netcoreapp2.1\SnookerTrainingCore.API.RazorAssemblyInfo.cache
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.API\obj\Debug\netcoreapp2.1\SnookerTrainingCore.API.RazorAssemblyInfo.cs
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.API\obj\Debug\netcoreapp2.1\SnookerTrainingCore.API.RazorTargetAssemblyInfo.cache

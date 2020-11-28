@@ -38,3 +38,4 @@ C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.API.Tests\obj\Debug\net
 C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.API.Tests\obj\Debug\netcoreapp2.1\SnookerTrainingCore.API.Tests.dll
 C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.API.Tests\obj\Debug\netcoreapp2.1\SnookerTrainingCore.API.Tests.pdb
 C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.API.Tests\obj\Debug\netcoreapp2.1\SnookerTrainingCore.API.Tests.genruntimeconfig.cache
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.API.Tests\obj\Debug\netcoreapp2.1\SnookerTrainingCore.API.Tests.csprojAssemblyReference.cache
