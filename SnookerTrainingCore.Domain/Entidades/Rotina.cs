@@ -10,7 +10,7 @@ namespace SnookerTrainingCore.Domain.Entidades
     {
         public Rotina()
         {
-            Pontos = new List<Pontuacao>();
+            
         }
 
         public int IdRotina { get; set; }
@@ -23,21 +23,28 @@ namespace SnookerTrainingCore.Domain.Entidades
         public double? Media { get; set; }
         public string Observacao { get; set; }
         public int IdTreino { get; set; }
-        public Treino Treino { get; set; }        
-        public virtual ICollection<Pontuacao> Pontos { get; set; }
+        public Treino Treino { get; set; }
+        public virtual ICollection<Pontuacao> Pontos { get; set; } = new List<Pontuacao>();
 
-        public double? ObterMedia()
+    public double ObterMedia()
         {
             if (Pontos != null)
                 return Pontos.Sum(x => x.Pontos) / Pontos.Count;
-            return null;
+            return 0;
         }
 
-        public double? ObterBreakMaximo()
+        public double ObterBreakMaximo()
         {
             if (Pontos != null)
                 return Pontos.Max(x => x.Pontos);
-            return null;
+            return 0;
+        }
+
+        public double ObterBreakMinimo()
+        {
+            if (Pontos != null)
+                return Pontos.Min(x => x.Pontos);
+            return 0;
         }
 
     }

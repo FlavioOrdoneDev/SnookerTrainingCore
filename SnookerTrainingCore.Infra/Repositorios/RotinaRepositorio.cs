@@ -43,12 +43,12 @@ namespace SnookerTrainingCore.Infra.Repositorios
 
         public Rotina ObterPorId(int id)
         {
-            return _contexto.Rotinas.Include(x => x.Pontos).Include(r => r.RotinaTemplate).Where(x => x.IdRotina == id).FirstOrDefault();
+            return _contexto.Rotinas.Include(x => x.Pontos).Include(r => r.RotinaTemplate).Include(x => x.RotinaTemplate.Categoria).Where(x => x.IdRotina == id).FirstOrDefault();
         }
 
         public IEnumerable<Rotina> ObterTodos()
         {
-            return _contexto.Rotinas.Include(x => x.Pontos).Include(r => r.RotinaTemplate).AsNoTracking();
+            return _contexto.Rotinas.Include(x => x.Pontos).Include(r => r.RotinaTemplate).Include(x => x.RotinaTemplate.Categoria).AsNoTracking();
         }
 
         public IEnumerable<Pontuacao> ObterPontuacao(int id)

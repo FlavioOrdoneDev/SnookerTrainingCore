@@ -1,0 +1,83 @@
+﻿@model SnookerTrainingCore.Domain.Entidades.Rotina
+
+<link href="~/css/styles/resultado-rotina.css" rel="stylesheet" />
+
+<div id="page-form" class="container">    
+    <main>
+        <fieldset>
+            <legend>Detalhes</legend>
+
+            <ul class="rotinas-item">
+                <li>
+                    <label for="twenty-to-twentynine">@Model.RotinaTemplate.Nome</label>
+                    <label> - </label>
+                    <label for="twenty-to-twentynine">@Model.RotinaTemplate.Categoria.Nome</label>                    
+                    <div class="rotina-img">
+                        <img src="@Url.Content("/images/mesasinuca.png")" alt="aviso importante" width="100%"/>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="input-pontos">
+                <div class="input-label">
+                    <label htmlFor="label_media">Pontuação Média: @Model.ObterMedia()</label>
+                </div>
+                <div class="input-label">
+                    <label htmlFor="label_maxima">Pontuação Máxima: @Model.ObterBreakMaximo()</label>
+                </div>
+                <div class="input-label">
+                    <label htmlFor="label_minima">Pontuação Mínima: @Model.ObterBreakMinimo()</label>
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Pontuação</legend>
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                        <th>8</th>
+                        <th>9</th>
+                        <th>10</th>
+                        <th>Média</th>
+                        <th>Meta</th>
+                    </tr>
+                </thead>
+                    <tbody>
+                        <tr>
+                            <td data-label="Data">27/09/2020</td>
+                            @foreach (var item in Model.Pontos)
+                            {
+
+                                <td data-label="1">@Html.DisplayFor(modelItem => item.Pontos)</td>
+
+                            }
+                            <td data-label="Média">67</td>
+                            <td data-label="Meta">75</td>
+                        </tr>
+                            
+                    </tbody>
+            </table>
+        </fieldset>
+        <footer>
+            <p>
+                <img src="./img/icons/warning.svg" alt="aviso importante" />
+                Importante! <br />
+                Preencha todos os dados
+            </p>
+            <button type="button">
+                Voltar
+            </button>
+        </footer>
+    </main>
+</div>
+

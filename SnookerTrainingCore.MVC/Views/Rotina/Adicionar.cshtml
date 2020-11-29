@@ -1,0 +1,54 @@
+﻿@model SnookerTrainingCore.MVC.Models.ViewModels.RotinaCategoriaViewModel;
+@using SnookerTrainingCore.Domain.Entidades;
+
+<link href="~/css/styles/cadastrar-categoria.css" rel="stylesheet" />
+<div id="page-form" class="container">
+    <main>
+        <fieldset>
+            <legend>Cadastrar Rotina</legend>            
+            <form asp-action="Adicionar">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="RotinaTemplate.IdRotina" />
+                <div class="input-block">
+                    <label asp-for="RotinaTemplate.Nome" class="control-label"></label>
+                    <input asp-for="RotinaTemplate.Nome" class="form-control" />
+                    <span asp-validation-for="RotinaTemplate.Nome" class="text-danger"></span>
+                </div>
+                <div class="input-block">
+                    <label asp-for="RotinaTemplate.Descricao" class="control-label"></label>
+                    <input asp-for="RotinaTemplate.Descricao" class="form-control" />
+                    <span asp-validation-for="RotinaTemplate.Descricao" class="text-danger"></span>
+                </div>
+                <div class="select-block">
+                    <select asp-for="RotinaTemplate.TipoMeta" asp-items="Html.GetEnumSelectList<TipoMeta>()">
+                        <option selected="selected" value="">Selecione...</option>
+                    </select>
+                </div>
+                <div class="input-block">
+                    <label asp-for="RotinaTemplate.Meta" class="control-label"></label>
+                    <input asp-for="RotinaTemplate.Meta" class="form-control" />
+                    <span asp-validation-for="RotinaTemplate.Meta" class="text-danger"></span>
+                </div>
+                <div class="select-block">
+                    <label asp-for="RotinaTemplate.IdCategoria" class="control-label"></label>
+                    <select asp-for="RotinaTemplate.IdCategoria" asp-items="@(new SelectList(Model.Categorias, "IdCategoria", "Nome"))" class="form-control"></select>
+                </div>
+
+
+
+
+
+
+                    <footer>
+                        <div>
+                            <a asp-action="Index">Voltar</a>
+                        </div>
+                        <div class="input-block">
+                            <button type="submit" value="Salvar">Salvar</button>
+                        </div>
+                    </footer>
+            </form>
+        </fieldset>
+    </main>
+</div>
+
