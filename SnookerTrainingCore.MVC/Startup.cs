@@ -8,8 +8,10 @@ using Microsoft.Extensions.DependencyInjection;
 using SnookerTrainingCore.Domain.Repositorios.Interfaces;
 using SnookerTrainingCore.Domain.Servicos;
 using SnookerTrainingCore.Domain.Servicos.Interfaces;
+using SnookerTrainingCore.Domain.Servicos.Templates;
 using SnookerTrainingCore.Infra.Contexto;
 using SnookerTrainingCore.Infra.Repositorios;
+using SnookerTrainingCore.Infra.Repositorios.Templates;
 using SnookerTrainingCore.Infra.SeedingService;
 
 namespace SnookerTrainingCore.MVC
@@ -37,12 +39,16 @@ namespace SnookerTrainingCore.MVC
             services.AddTransient<ITreinoServico, TreinoServico>();
             services.AddTransient<IPontuacaoServico, PontuacaoServico>();
             services.AddTransient<IResultadoServico, ResultadoServico>();
+            services.AddTransient<IRotinaTemplateServico, RotinaTemplateServico>();
+            services.AddTransient<ITreinoTemplateServico, TreinoTemplateServico>();
 
             services.AddTransient<ICategoriaRepositorio, CategoriaRepositorio>();
             services.AddTransient<IRotinaRepositorio, RotinaRepositorio>();
             services.AddTransient<ITreinoRepositorio, TreinoRepositorio>();
             services.AddTransient<IPontuacaoRepositorio, PontuacaoRepositorio>();
             services.AddTransient<IResultadoRepositorio, ResultadoRepositorio>();
+            services.AddTransient<IRotinaTemplateRepositorio, RotinaTemplateRepositorio>();
+            services.AddTransient<ITreinoTemplateRepositorio, TreinoTemplateRepositorio>();
 
 
             services.Configure<CookiePolicyOptions>(options =>
