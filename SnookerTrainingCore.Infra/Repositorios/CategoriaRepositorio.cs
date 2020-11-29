@@ -48,7 +48,7 @@ namespace SnookerTrainingCore.Infra.Repositorios
 
         public IEnumerable<Categoria> ObterTodos()
         {
-            return _contexto.Categorias.Include(x => x.RotinasTemplate).AsNoTracking().ToList();
+            return _contexto.Categorias.Include(x => x.RotinasTemplate).ToList();
         }
 
         public IEnumerable<RotinaTemplate> ObterRotinas(int id)

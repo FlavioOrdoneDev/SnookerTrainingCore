@@ -43,7 +43,7 @@ namespace SnookerTrainingCore.Infra.Repositorios.Templates
 
         public IEnumerable<RotinaTemplate> ObterTodos()
         {
-            return _contexto.RotinasTemplate.Include(x => x.Categoria).AsNoTracking();
+            return _contexto.RotinasTemplate.Include(x => x.Categoria).ToList();
         }
 
         public void Remover(RotinaTemplate rotina)
