@@ -1,0 +1,60 @@
+﻿@model IEnumerable<SnookerTrainingCore.Domain.Entidades.Templates.TreinoTemplate>;
+
+    <link href="~/css/styles/listar-categoria.css" rel="stylesheet" />
+
+    <div id="page-form" class="container">
+        <main>
+            <div class="top">
+                <div>
+                    <p>Adicionar Treino</p>
+                </div>
+                <div class="input-block">
+                    <a type="button" asp-action="Adicionar" id="btn-add">Adicionar</a>
+                </div>
+            </div>            
+            <fieldset>
+                <legend>Treinos</legend>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>
+                                Nome
+                            </th>
+                            <th>
+                                Descrição
+                            </th>
+                            <th>
+                            </th>
+                            <th>
+                            </th>
+                            <th>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Nome)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Descricao)
+                            </td>
+                            <td>
+                                <a asp-action="Editar" asp-route-id="@item.IdTreino">Editar</a>
+                            </td>
+                            <td>
+                                <a asp-action="Detalhes" asp-route-id="@item.IdTreino">Detalhes</a>
+                            </td>
+                            <td>
+                                <a asp-action="Delete" asp-route-id="@item.IdTreino">Remover</a>
+                            </td>
+                        </tr>
+                        }
+                    </tbody>
+                </table>
+            </fieldset>
+        </main>
+    </div>
+

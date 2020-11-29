@@ -34,12 +34,7 @@ namespace SnookerTrainingCore.Infra.Repositorios.Templates
         public IEnumerable<RotinaTemplate> Buscar(Expression<Func<RotinaTemplate, bool>> predicate)
         {
             return _contexto.RotinasTemplate.AsNoTracking().Include(x => x.Categoria).AsNoTracking().Where(predicate).AsNoTracking();
-        }
-
-        public void Dispose()
-        {
-            //throw new NotImplementedException();
-        }
+        }        
 
         public RotinaTemplate ObterPorId(int id)
         {
@@ -60,6 +55,11 @@ namespace SnookerTrainingCore.Infra.Repositorios.Templates
         public void Salvar()
         {
             _contexto.SaveChanges();
+        }
+
+        public void Dispose()
+        {
+            //throw new NotImplementedException();
         }
     }
 }
