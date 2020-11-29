@@ -88,5 +88,23 @@ namespace SnookerTrainingCore.MVC.Controllers
             var rotinaTemplate = _rotinaTemplateServico.ObterPorId(id);
             return View(rotinaTemplate);
         }
+
+        [HttpGet]
+        public IActionResult Delete(int? id)
+        {
+            var entidade = _rotinaTemplateServico.ObterPorId(id.Value);
+            return View(entidade);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Delete(int id)
+        {
+            var entidade = _rotinaTemplateServico.ObterPorId(id);
+            _rotinaTemplateServico.Remover(entidade);
+
+            return RedirectToAction(nameof(Index));
+
+        }
     }
 }

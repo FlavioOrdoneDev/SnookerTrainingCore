@@ -1,0 +1,36 @@
+﻿@model SnookerTrainingCore.Domain.Entidades.Categoria;
+
+<link href="~/css/styles/detalhes-categoria.css" rel="stylesheet" />
+
+<div id="page-form" class="container">
+    <main>
+        <form asp-action="Delete">
+            <fieldset>
+                <legend>Delete</legend>
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="IdCategoria" />
+                <div class="input-block">
+                    <label asp-for="Nome" class="control-label">Nome: </label>
+                    <label asp-for="Nome" class="form-control">@Model.Nome</label>
+                    <span asp-validation-for="Nome" class="text-danger"></span>
+                </div>
+                <div class="input-block">
+                    <label asp-for="Descricao" class="control-label">Descrição: </label>
+                    <label asp-for="Descricao" class="form-control">@Model.Descricao</label>
+                    <span asp-validation-for="Descricao" class="text-danger"></span>
+                </div>
+                <footer>
+                    <div class="input-block">
+                        <button asp-action="Index">Voltar</button>
+                    </div>
+                    <div class="input-block">
+                        <input type="hidden" asp-for="IdCategoria" />
+                        <input type="submit" value="Delete" class="btn btn-danger" />
+                    </div>
+                </footer>
+
+            </fieldset>
+        </form>
+    </main>
+</div>
+

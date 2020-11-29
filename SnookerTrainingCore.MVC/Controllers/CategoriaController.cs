@@ -84,6 +84,24 @@ namespace SnookerTrainingCore.MVC.Controllers
             var categoria = _categoriaServico.ObterPorId(id);
             return View(categoria);
         }
+
+        [HttpGet]
+        public IActionResult Delete(int? id)
+        {
+            var entidade = _categoriaServico.ObterPorId(id.Value);
+            return View(entidade);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Delete(int id)
+        {
+            var entidade = _categoriaServico.ObterPorId(id);
+            _categoriaServico.Remover(entidade);
+                
+           return RedirectToAction(nameof(Index));            
+            
+        }
     }
 }
 
