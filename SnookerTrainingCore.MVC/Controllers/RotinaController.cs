@@ -33,8 +33,8 @@ namespace SnookerTrainingCore.MVC.Controllers
             //var categorias = _categoriaServico.ObterTodas();
             //var viewModel = new RotinaCategoriaViewModel { Categorias = categorias };
 
-            var viewModel = _rotinaServico.ObterTodas();
-            return View(viewModel);
+            var rotina = _rotinaServico.ObterTodas();
+            return View(rotina);
         }
 
         [HttpPost]

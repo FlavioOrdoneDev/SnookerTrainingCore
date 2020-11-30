@@ -138,3 +138,8 @@ C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.MVC\obj\Debug\netcoreap
 C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.MVC\obj\Debug\netcoreapp2.1\Razor\Views\Rotina\Detalhes.cshtml.g.cs
 C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.MVC\obj\Debug\netcoreapp2.1\Razor\Views\Rotina\Editar.cshtml.g.cs
 C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.MVC\obj\Debug\netcoreapp2.1\Razor\Views\Rotina\Index.cshtml.g.cs
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.MVC\obj\Debug\netcoreapp2.1\Razor\Views\Treino\Adicionar.cshtml.g.cs
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.MVC\obj\Debug\netcoreapp2.1\Razor\Views\Treino\Delete.cshtml.g.cs
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.MVC\obj\Debug\netcoreapp2.1\Razor\Views\Treino\Detalhes.cshtml.g.cs
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.MVC\obj\Debug\netcoreapp2.1\Razor\Views\Treino\Editar.cshtml.g.cs
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.MVC\obj\Debug\netcoreapp2.1\Razor\Views\Treino\Index.cshtml.g.cs

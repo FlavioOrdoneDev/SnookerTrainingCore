@@ -1,0 +1,34 @@
+﻿@model SnookerTrainingCore.Domain.Entidades.Templates.TreinoTemplate;
+
+<link href="~/css/styles/detalhes-categoria.css" rel="stylesheet" />
+
+<div id="page-form" class="container">
+    <main>               
+        <fieldset>
+            <legend>Detalhes</legend>
+            <form asp-action="Editar">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="IdTreino" />
+                <div class="input-block">
+                    <label asp-for="Nome" class="control-label">Nome: </label>
+                    <label asp-for="Nome" class="form-control">@Model.Nome</label>
+                    <span asp-validation-for="Nome" class="text-danger"></span>
+                </div>
+                <div class="input-block">
+                    <label asp-for="Descricao" class="control-label">Descrição: </label>
+                    <label asp-for="Descricao" class="form-control">@Model.Descricao</label>
+                    <span asp-validation-for="Descricao" class="text-danger"></span>
+                </div>
+                <footer>
+                    <div>
+                        <button asp-action="Index">Voltar</button>
+                    </div>
+                    <div class="input-block">
+                        <a asp-action="Editar" asp-route-id="@Model.IdTreino">Editar</a>
+                    </div>
+                </footer>
+            </form>
+        </fieldset>
+    </main>
+</div>
+

@@ -1,8 +1,9 @@
-﻿@model SnookerTrainingCore.MVC.Models.ViewModels.RotinaCategoriaViewModel;
+﻿@model SnookerTrainingCore.Domain.Entidades.Rotina;
 @using SnookerTrainingCore.Domain.Entidades;
 
-<link href="~/css/styles/cadastrar-categoria.css" rel="stylesheet" />
-<div id="page-form" class="container">
+<link href="~/css/styles/cadastrar-treino-resultado.css" rel="stylesheet" />
+
+@*<div id="page-form" class="container">
     <main>
         <fieldset>
             <legend>Cadastrar Rotina</legend>            
@@ -34,11 +35,6 @@
                     <select asp-for="RotinaTemplate.IdCategoria" asp-items="@(new SelectList(Model.Categorias, "IdCategoria", "Nome"))" class="form-control"></select>
                 </div>
 
-
-
-
-
-
                     <footer>
                         <div>
                             <a asp-action="Index">Voltar</a>
@@ -49,6 +45,95 @@
                     </footer>
             </form>
         </fieldset>
+    </main>
+</div>*@
+
+<div id="page-form" class="container">   
+
+    <main>
+        <fieldset>
+            <legend>Cadastrar Resultado Rotina</legend>
+            <form asp-action="Adicionar">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="IdRotina" />
+
+                <ul class="rotinas-item">
+                    <li>
+                        <label for="twenty-to-twentynine">@Model.RotinaTemplate.Nome</label>
+                        <label> - </label>
+                        <label for="twenty-to-twentynine">@Model.RotinaTemplate.Categoria.Nome</label>
+                        <div class="rotina-img">
+                            <img src="@Url.Content("/images/mesasinuca.png")" alt="aviso importante" width="100%" />
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="input-datas">
+                    <div class="input-block">
+                        <label htmlFor="data">Data</label>
+                        <input type="text" id="data">
+                    </div>
+                    <div class="input-block">
+                        <label htmlFor="hora">Hora</label>
+                        <input type="time" id="hora">
+                    </div>
+
+                    <div class="input-block">
+                        <label htmlFor="duracao">Duração</label>
+                        <input type="time" id="duracao">
+                    </div>
+                </div>
+
+                <label class="pontuacao">Pontuação</label>
+                <div class="input-pontos">
+                    <div class="input-block">
+                        <input type="text" id="pontos">
+                    </div>
+                    <div class="input-block">
+                        <input type="text" id="pontos">
+                    </div>
+                    <div class="input-block">
+                        <input type="text" id="pontos">
+                    </div>
+                    <div class="input-block">
+                        <input type="text" id="pontos">
+                    </div>
+                    <div class="input-block">
+                        <input type="text" id="pontos">
+                    </div>
+                    <div class="input-block">
+                        <input type="text" id="pontos">
+                    </div>
+                    <div class="input-block">
+                        <input type="text" id="pontos">
+                    </div>
+                    <div class="input-block">
+                        <input type="text" id="pontos">
+                    </div>
+                    <div class="input-block">
+                        <input type="text" id="pontos">
+                    </div>
+                    <div class="input-block">
+                        <input type="text" id="pontos">
+                    </div>
+                </div>
+
+                <div class="textarea-block">
+                    <label>Observação</label>
+                    <textarea name="observação" rows="3" cols="61"></textarea>
+                </div>
+
+                <footer>
+                    <div>
+                        <a asp-action="Index">Voltar</a>
+                    </div>
+                    <div class="input-block">
+                        <button type="submit" value="Salvar">Salvar</button>
+                    </div>
+                </footer>
+            </form>
+        </fieldset>
+        
     </main>
 </div>
 
