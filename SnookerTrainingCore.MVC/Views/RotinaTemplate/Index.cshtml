@@ -21,6 +21,9 @@
                                 Nome
                             </th>
                             <th>
+                                Rotina
+                            </th>
+                            <th>
                                 Descrição
                             </th>
                             <th>
@@ -46,6 +49,16 @@
                         <tr>
                             <td>
                                 @Html.DisplayFor(modelItem => item.Nome)
+                            </td>
+                            <td>
+                                @if (item.Imagem != null)
+                                {
+                                    <img id="imagem" src="@Url.Content(item.Imagem)" width="120" height="70" alt="Foto Rotina" />
+                                }
+                                else
+                                {
+                                    <img id="imagem" src="~/default-imagem/mesa.png" width="120" height="70" alt="Foto Rotina" />
+                                }
                             </td>
                             <td>
                                 @Html.DisplayFor(modelItem => item.Descricao)

@@ -10,7 +10,8 @@ namespace SnookerTrainingCore.Infra.Mapeamentos.Templates
         {
             builder.HasKey(r => r.IdRotina);
             builder.Property(r => r.Nome).HasMaxLength(50).IsRequired();
-            builder.Property(r => r.Descricao).HasMaxLength(200).IsRequired(false);            
+            builder.Property(r => r.Descricao).HasMaxLength(200).IsRequired(false);
+            builder.Property(r => r.Imagem).IsRequired(false);
             builder.Property(r => r.TipoMeta).IsRequired();
             builder.Property(r => r.Meta).IsRequired(false);
 

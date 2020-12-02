@@ -24,4 +24,8 @@
     <ProjectReference Include="..\SnookerTrainingCore.Infra\SnookerTrainingCore.Infra.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\imagens\" />
+  </ItemGroup>
+
 </Project>

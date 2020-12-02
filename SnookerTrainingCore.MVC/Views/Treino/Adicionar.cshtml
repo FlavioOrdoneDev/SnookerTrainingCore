@@ -27,88 +27,56 @@
                         @foreach (var item in Model.RotinasTemplate)
                         {
                             <li>
-                                <input type="checkbox" id="twenty-to-twentynine">
-                                <label for="twenty-to-twentynine">@item.Nome</label>
+                                <input type="checkbox" id="">
+                                <label for="">@item.Nome</label>
                                 <div class="rotina-img">
-                                    <img src="@Url.Content("/images/mesasinuca.png")" alt="aviso importante" width="100%" />
+                                    @if (item.Imagem != null)
+                                    {
+                                        <img id="imagem" src="@Url.Content(item.Imagem)" alt="Foto Rotina" width="100%" />
+                                    }
+                                    else
+                                    {
+                                        <img id="imagem" src="~/default-imagem/mesa.png" alt="Foto Rotina" width="100%" />
+                                    }
+                                    
                                 </div>
                             </li>
-                        }
-
-                        
+                        }                        
                     </ul>
                 </div>
-                <div class="categorias">
+                @*<div class="categorias">
                     <legend>Safety</legend>
                     <ul class="rotinas-item">
                         <li>
                             <input type="checkbox" id="twenty-to-twentynine">
                             <label for="twenty-to-twentynine">Safety 1</label>
                             <div class="rotina-img">
-                                <img src="@Url.Content("/images/mesasinuca.png")" alt="aviso importante" width="100%" />
+                                <img src="@Url.Content("/Imagens/mesa.png")" alt="aviso importante" width="100%" />
                             </div>
                         </li>
                         <li>
                             <input type="checkbox" id="twenty-to-twentynine">
                             <label for="twenty-to-twentynine">Safety to baulk</label>
                             <div class="rotina-img">
-                                <img src="@Url.Content("/images/mesasinuca.png")" alt="aviso importante" width="100%" />
+                                <img src="@Url.Content("/Imagens/mesa.png")" alt="aviso importante" width="100%" />
                             </div>
                         </li>
                         <li>
                             <input type="checkbox" id="twenty-to-twentynine">
                             <label for="twenty-to-twentynine">Safety to baulk 2</label>
                             <div class="rotina-img">
-                                <img src="@Url.Content("/images/mesasinuca.png")" alt="aviso importante" width="100%" />
+                                <img src="@Url.Content("/Imagens/mesa.png")" alt="aviso importante" width="100%" />
                             </div>
                         </li>
                     </ul>
-                </div>
-
-                <div class="categorias">
-                    <legend>Breaking Building</legend>
-                    <ul class="rotinas-item">
-                        <li>
-                            <input type="checkbox" id="twenty-to-twentynine">
-                            <label for="twenty-to-twentynine">Hendry's Straight</label>
-                            <div class="rotina-img">
-                                <img src="@Url.Content("/images/mesasinuca.png")" alt="aviso importante" width="100%" />
-                            </div>
-                        </li>
-                        <li>
-                            <input type="checkbox" id="twenty-to-twentynine">
-                            <label for="twenty-to-twentynine">Pink and Black</label>
-                            <div class="rotina-img">
-                                <img src="@Url.Content("/images/mesasinuca.png")" alt="aviso importante" width="100%" />
-                            </div>
-                        </li>
-                        <li>
-                            <input type="checkbox" id="twenty-to-twentynine">
-                            <label for="twenty-to-twentynine">Pink Cross</label>
-                            <div class="rotina-img">
-                                <img src="@Url.Content("/images/mesasinuca.png")" alt="aviso importante" width="100%" />
-                            </div>
-                        </li>
-                        <li>
-                            <input type="checkbox" id="twenty-to-twentynine">
-                            <label for="twenty-to-twentynine">Safety to baulk 2</label>
-                            <div class="rotina-img">
-                                <img src="@Url.Content("/images/mesasinuca.png")" alt="aviso importante" width="100%" />
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-
+                </div>*@
             </div>
-
-
         </fieldset>
 
         <footer>
             <p>
-                <img src="./img/icons/warning.svg" alt="aviso importante" />
-                Importante! <br />
-                Preencha todos os dados
+                importante
+                
             </p>
             <button type="button">
                 Salvar Treino

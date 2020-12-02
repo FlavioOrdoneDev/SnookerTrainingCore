@@ -14,6 +14,7 @@ namespace SnookerTrainingCore.Domain.Entidades.Templates
         public int IdRotina { get; set; }
         public string Nome { get; set; }
         public string Descricao { get; set; }
+        public string Imagem { get; set; }
         public int IdCategoria { get; set; }
         public Categoria Categoria { get; set; }
         public TipoMeta TipoMeta { get; set; }

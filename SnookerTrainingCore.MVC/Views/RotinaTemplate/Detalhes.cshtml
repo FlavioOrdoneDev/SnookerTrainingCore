@@ -3,7 +3,7 @@
 <link href="~/css/styles/detalhes-categoria.css" rel="stylesheet" />
 
 <div id="page-form" class="container">
-    <main>               
+    <main>
         <fieldset>
             <legend>Detalhes</legend>
             <form asp-action="Editar">
@@ -14,6 +14,16 @@
                     <label asp-for="Nome" class="form-control">@Model.Nome</label>
                     <span asp-validation-for="Nome" class="text-danger"></span>
                 </div>
+
+                @if (Model.Imagem != null)
+                {
+                    <img id="imagem" src="@Url.Content(Model.Imagem)" width="340" height="200" alt="Foto" />
+                }
+                else
+                {
+                    <img id="imagem" src="~/default-imagem/mesa.png" width="340" height="200" alt="Foto" />
+                }
+
                 <div class="input-block">
                     <label asp-for="Descricao" class="control-label">Descrição: </label>
                     <label asp-for="Descricao" class="form-control">@Model.Descricao</label>
@@ -46,4 +56,18 @@
         </fieldset>
     </main>
 </div>
+
+@*@section Scripts {
+    <script>
+        function CarregarImagem(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    $("#imagem").attr('src', e.target.result).width(340).height(200);
+                }
+            }
+            reader.readAsDataURL(input.files[0]);
+        }
+    </script>
+}*@
 

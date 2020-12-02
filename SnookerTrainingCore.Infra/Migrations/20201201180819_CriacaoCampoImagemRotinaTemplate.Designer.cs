@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SnookerTrainingCore.Infra.Contexto;
 
 namespace SnookerTrainingCore.Infra.Migrations
 {
     [DbContext(typeof(SnookerContexto))]
-    partial class SnookerContextoModelSnapshot : ModelSnapshot
+    [Migration("20201201180819_CriacaoCampoImagemRotinaTemplate")]
+    partial class CriacaoCampoImagemRotinaTemplate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

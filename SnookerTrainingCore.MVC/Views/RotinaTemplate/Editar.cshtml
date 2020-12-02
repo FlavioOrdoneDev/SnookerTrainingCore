@@ -7,7 +7,7 @@
     <main>
         <fieldset>
             <legend>Editar Rotinas</legend>
-            <form asp-action="Editar">
+            <form asp-action="Editar" enctype="multipart/form-data">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 <input type="hidden" asp-for="RotinaTemplate.IdRotina" />
                 <div class="input-block">
@@ -15,11 +15,34 @@
                     <input asp-for="RotinaTemplate.Nome" class="form-control" />
                     <span asp-validation-for="RotinaTemplate.Nome" class="text-danger"></span>
                 </div>
+
+
+                @if (Model.RotinaTemplate.Imagem != null)
+                {
+                    <img id="imagem" src="@Url.Content(Model.RotinaTemplate.Imagem)" width="340" height="200" alt="Foto" />
+                }
+                else
+                {
+                    <img id="imagem" src="~/default-imagem/mesa.png" width="340" height="200" alt="Foto" />
+                }
+
+                <div class="file-field input-field">
+                    <div class="btn-small">
+                        <span>Selecione o arquivo</span>
+                        <input asp-for="RotinaTemplate.Imagem" class="form-control" type="file" name="arquivo" onchange="CarregarImagem(this)" />
+                        <span asp-validation-for="RotinaTemplate.Imagem" class="text-danger"></span>
+                    </div>
+                    <div class="file-path-wrapper">
+                        <input class="file-path-wrapper validate" type="text" placeholder="Faça o upload da foto" />
+                    </div>
+                </div>
+
+
                 <div class="input-block">
                     <label asp-for="RotinaTemplate.Descricao" class="control-label"></label>
                     <input asp-for="RotinaTemplate.Descricao" class="form-control" />
                     <span asp-validation-for="RotinaTemplate.Descricao" class="text-danger"></span>
-                </div>                
+                </div>
                 <div class="select-block">
                     <select asp-for="RotinaTemplate.TipoMeta" asp-items="Html.GetEnumSelectList<TipoMeta>()">
                         <option selected="selected" value="">Selecione...</option>
@@ -35,11 +58,6 @@
                     <select asp-for="RotinaTemplate.IdCategoria" asp-items="@(new SelectList(Model.Categorias, "IdCategoria", "Nome"))" class="form-control"></select>
                 </div>
 
-
-
-
-
-
                 <footer>
                     <div>
                         <a asp-action="Index">Voltar</a>
@@ -52,4 +70,18 @@
         </fieldset>
     </main>
 </div>
+
+@section Scripts {
+    <script>
+        function CarregarImagem(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    $("#imagem").attr('src', e.target.result).width(340).height(200);
+                }
+            }
+            reader.readAsDataURL(input.files[0]);
+        }
+    </script>
+}
 

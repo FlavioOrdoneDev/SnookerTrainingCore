@@ -5,8 +5,8 @@
 <div id="page-form" class="container">
     <main>
         <fieldset>
-            <legend>Cadastrar Rotina</legend>            
-            <form asp-action="Adicionar">
+            <legend>Cadastrar Rotina</legend>
+            <form asp-action="Adicionar" enctype="multipart/form-data">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 <input type="hidden" asp-for="RotinaTemplate.IdRotina" />
                 <div class="input-block">
@@ -14,6 +14,17 @@
                     <input asp-for="RotinaTemplate.Nome" class="form-control" />
                     <span asp-validation-for="RotinaTemplate.Nome" class="text-danger"></span>
                 </div>
+
+                <img id="imagem" src="#" alt="Foto" />
+                <div class="input-block">
+                    <label>Selecione o arquivo</label>
+                    <input asp-for="RotinaTemplate.Imagem" class="form-control" type="file" name="arquivo" onchange="CarregarImagem(this)" />
+                    <span asp-validation-for="RotinaTemplate.Imagem" class="text-danger"></span>
+                    <div class="file-path-wrapper">
+                        <input class="file-path-wrapper validate" type="text" placeholder="Faça o upload da foto" />
+                    </div>
+                </div>      
+
                 <div class="input-block">
                     <label asp-for="RotinaTemplate.Descricao" class="control-label"></label>
                     <input asp-for="RotinaTemplate.Descricao" class="form-control" />
@@ -34,21 +45,36 @@
                     <select asp-for="RotinaTemplate.IdCategoria" asp-items="@(new SelectList(Model.Categorias, "IdCategoria", "Nome"))" class="form-control"></select>
                 </div>
 
-
-
-
-
-
-                    <footer>
-                        <div>
-                            <a asp-action="Index">Voltar</a>
-                        </div>
-                        <div class="input-block">
-                            <button type="submit" value="Salvar">Salvar</button>
-                        </div>
-                    </footer>
+                <footer>
+                    <div>
+                        <a asp-action="Index">Voltar</a>
+                    </div>
+                    <div class="input-block">
+                        <button type="submit" value="Salvar">Salvar</button>
+                    </div>
+                </footer>
             </form>
         </fieldset>
     </main>
 </div>
 
+@section Scripts {
+   
+
+    <script>
+        $(document).ready(function () {
+            $("#imagem").hide();
+        });
+        function CarregarImagem(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                $("#imagem").show();
+                reader.onload = function (e) {
+                    $("#imagem").attr('src', e.target.result).width(340).height(200);
+                }
+            }
+            reader.readAsDataURL(input.files[0]);
+        }
+    </script>
+
+}
