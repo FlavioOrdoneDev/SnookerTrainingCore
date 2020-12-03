@@ -22,3 +22,4 @@ C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.Domain\obj\Debug\netcor
 C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.Domain\obj\Debug\netcoreapp2.1\SnookerTrainingCore.Domain.dll
 C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.Domain\obj\Debug\netcoreapp2.1\SnookerTrainingCore.Domain.pdb
 C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.Domain\obj\Debug\netcoreapp2.1\SnookerTrainingCore.Domain.csproj.CoreCompileInputs.cache
+C:\GitHub_Flavio\SnookerTrainingCore\SnookerTrainingCore.Domain\obj\Debug\netcoreapp2.1\SnookerTrainingCore.Domain.csprojAssemblyReference.cache

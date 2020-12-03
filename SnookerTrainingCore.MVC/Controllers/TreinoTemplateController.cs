@@ -12,16 +12,27 @@ namespace SnookerTrainingCore.MVC.Controllers
 
     {
         private readonly ITreinoTemplateServico _treinoTemplateServico;
+        private readonly IRotinaTemplateServico _rotinaTemplateServico;
 
-        public TreinoTemplateController(ITreinoTemplateServico treinoTemplateServico)
+        public TreinoTemplateController(ITreinoTemplateServico treinoTemplateServico, IRotinaTemplateServico rotinaTemplateServico)
         {
             _treinoTemplateServico = treinoTemplateServico;
+            _rotinaTemplateServico = rotinaTemplateServico;
         }
 
         [HttpGet]
         public ActionResult Index()
         {
+            var rotinas = _rotinaTemplateServico.ObterTodas();
+
             var treinosTemplates = _treinoTemplateServico.ObterTodas();
+            foreach (var treino in treinosTemplates)
+            {
+                foreach (var rotina in rotinas)
+                {
+                    treino.RotinasTemplate.Add(rotina);
+                }
+            }
             return View(treinosTemplates);
         }
 
