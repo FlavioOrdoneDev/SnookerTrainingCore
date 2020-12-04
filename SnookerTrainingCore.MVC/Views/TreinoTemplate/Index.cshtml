@@ -14,46 +14,49 @@
             </div>            
             <fieldset>
                 <legend>Treinos</legend>
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th>
-                                Nome
-                            </th>
-                            <th>
-                                Descrição
-                            </th>
-                            <th>
-                            </th>
-                            <th>
-                            </th>
-                            <th>
-                            </th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        @foreach (var item in Model)
-                        {
-                        <tr>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.Nome)
-                            </td>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.Descricao)
-                            </td>
-                            <td>
-                                <a asp-action="Editar" asp-route-id="@item.IdTreino">Editar</a>
-                            </td>
-                            <td>
-                                <a asp-action="Detalhes" asp-route-id="@item.IdTreino">Detalhes</a>
-                            </td>
-                            <td>
-                                <a asp-action="Delete" asp-route-id="@item.IdTreino">Remover</a>
-                            </td>
-                        </tr>
-                        }
-                    </tbody>
-                </table>
+                @foreach (var item in Model)
+                {
+                    <div class="cabecalho">
+                        <div>
+                            <p>Treino : @item.Nome</p>
+                        </div>
+                        <div>
+                            <a asp-action="Editar" asp-route-id="@item.IdTreino">Editar</a>
+                        </div>
+                        <div>
+                            <a asp-action="Detalhes" asp-route-id="@item.IdTreino">Detalhes</a>
+                        </div>
+                        <div>
+                            <a asp-action="Delete" asp-route-id="@item.IdTreino">Remover</a>
+                        </div>
+                    </div>
+
+                    <table class="table">
+                        <thead >
+                            <tr class="cabecalho-rotina">
+                                <th>
+                                    Rotina
+                                </th>
+                                <th>
+                                    Descrição
+                                </th>                                
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var rotina in item.RotinasTemplate)
+                            {
+                                <tr>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => rotina.Nome)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => rotina.Descricao)
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                }
             </fieldset>
         </main>
     </div>

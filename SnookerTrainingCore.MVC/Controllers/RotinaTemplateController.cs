@@ -28,7 +28,7 @@ namespace SnookerTrainingCore.MVC.Controllers
         [HttpGet]
         public ActionResult Index()
         {
-            var rotinasTemplates = _rotinaTemplateServico.ObterTodas();
+            var rotinasTemplates = _rotinaTemplateServico.ObterTodas();           
             return View(rotinasTemplates);
         }
 

@@ -23,16 +23,7 @@ namespace SnookerTrainingCore.MVC.Controllers
         [HttpGet]
         public ActionResult Index()
         {
-            var rotinas = _rotinaTemplateServico.ObterTodas();
-
             var treinosTemplates = _treinoTemplateServico.ObterTodas();
-            foreach (var treino in treinosTemplates)
-            {
-                foreach (var rotina in rotinas)
-                {
-                    treino.RotinasTemplate.Add(rotina);
-                }
-            }
             return View(treinosTemplates);
         }
 
@@ -54,7 +45,15 @@ namespace SnookerTrainingCore.MVC.Controllers
             //    RedirectToAction("Index");
             //}
 
-            _treinoTemplateServico.Adicionar(treinoTemplate);
+            var rotinas = _rotinaTemplateServico.ObterTodas();
+
+            foreach (var item in rotinas)
+            {
+                treinoTemplate.RotinasTemplate.Add(item);
+            }
+
+            _treinoTemplateServico.Adicionar(treinoTemplate);           
+
             var entidade = _treinoTemplateServico.ObterTodas();
 
             return View("Index", entidade);
