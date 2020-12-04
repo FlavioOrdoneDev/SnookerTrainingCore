@@ -39,21 +39,31 @@
                                 </th>
                                 <th>
                                     Descrição
-                                </th>                                
+                                </th>
+                                <th>
+                                    Meta
+                                </th>
                             </tr>
                         </thead>
                         <tbody>
-                            @foreach (var rotina in item.RotinasTemplate)
+                            @if (item.RotinaTreinoTemplate != null)
                             {
-                                <tr>
-                                    <td>
-                                        @Html.DisplayFor(modelItem => rotina.Nome)
-                                    </td>
-                                    <td>
-                                        @Html.DisplayFor(modelItem => rotina.Descricao)
-                                    </td>
-                                </tr>
+                                @foreach (var rotina in item.RotinaTreinoTemplate)
+                                {
+                                    <tr>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => rotina.RotinaTemplate.Nome)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => rotina.RotinaTemplate.Descricao)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => rotina.RotinaTemplate.Meta)
+                                        </td>
+                                    </tr>
+                                }
                             }
+
                         </tbody>
                     </table>
                 }

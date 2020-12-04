@@ -20,5 +20,6 @@ namespace SnookerTrainingCore.Domain.Entidades.Templates
         public TipoMeta TipoMeta { get; set; }
         public double? Meta { get; set; }
         public ICollection<Rotina> Rotinas { get; set; }
+        public ICollection<RotinaTreinoTemplate> RotinaTreinoTemplate { get; set; }
     }
 }

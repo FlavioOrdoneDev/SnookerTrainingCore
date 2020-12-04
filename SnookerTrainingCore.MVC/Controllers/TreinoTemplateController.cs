@@ -47,9 +47,9 @@ namespace SnookerTrainingCore.MVC.Controllers
 
             var rotinas = _rotinaTemplateServico.ObterTodas();
 
-            foreach (var item in rotinas)
+            foreach (var rotina in rotinas)
             {
-                treinoTemplate.RotinasTemplate.Add(item);
+                treinoTemplate.RotinaTreinoTemplate.Add(new RotinaTreinoTemplate { RotinaTemplate = rotina });
             }
 
             _treinoTemplateServico.Adicionar(treinoTemplate);           

@@ -43,12 +43,12 @@ namespace SnookerTrainingCore.Infra.Repositorios.Templates
 
         public TreinoTemplate ObterPorId(int id)
         {
-            return _contexto.TreinosTemplate.Where(x => x.IdTreino == id).Include(x => x.RotinasTemplate).FirstOrDefault();
+            return _contexto.TreinosTemplate.Where(x => x.IdTreino == id).FirstOrDefault();
         }
 
         public IEnumerable<TreinoTemplate> ObterTodos()
         {
-            return _contexto.TreinosTemplate.Include(x => x.RotinasTemplate).ToList();
+            return _contexto.TreinosTemplate.Include(p => p.RotinaTreinoTemplate).ThenInclude(p => p.RotinaTemplate).ToList();
         }
 
         public void Remover(TreinoTemplate obj)

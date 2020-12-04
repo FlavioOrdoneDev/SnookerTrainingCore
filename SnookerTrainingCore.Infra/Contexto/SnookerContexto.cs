@@ -29,7 +29,7 @@ namespace SnookerTrainingCore.Infra.Contexto
             modelBuilder.ApplyConfiguration(new ResultadoMap());
             modelBuilder.ApplyConfiguration(new TreinoMap());
             modelBuilder.ApplyConfiguration(new PontuacaoMap());
-            //modelBuilder.ApplyConfiguration(new TreinoRotinaMap());
+            modelBuilder.ApplyConfiguration(new RotinaTreinoTemplateMap());
         }
     }
 }
